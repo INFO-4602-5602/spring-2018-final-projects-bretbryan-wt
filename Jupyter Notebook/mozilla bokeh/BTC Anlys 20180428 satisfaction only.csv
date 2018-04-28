@@ -1,0 +1,511 @@
+﻿Country,SatisfactionResponse,QuestionNumber,QuestionString,QuestionResponse,Count
+American Samoa,-0.5,Q03,Q03_I_would_describe_myself_asResourceful,1.25,4
+American Samoa,-0.5,Q04,Q04_I_would_describe_myself_asPatient,0.5,4
+American Samoa,-0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1,4
+American Samoa,-0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.25,4
+American Samoa,-0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,1.25,4
+American Samoa,-0.5,Q08,Q08_I_would_describe_myself_asResilient,1.5,4
+American Samoa,-0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-1,4
+American Samoa,-0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,-0.75,4
+American Samoa,-0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-1,4
+American Samoa,-0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-1,4
+American Samoa,-0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-1,4
+American Samoa,-0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,0.25,4
+American Samoa,-0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,0.25,4
+American Samoa,-0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,-0.5,4
+American Samoa,-0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.25,4
+American Samoa,-0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.5,4
+American Samoa,-0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0,4
+American Samoa,-0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.25,4
+American Samoa,-0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0,4
+American Samoa,-0.5,Q23,Q23_andI_felt_safe_in_my_home,0.5,4
+American Samoa,-0.5,Q24,Q24_andI_felt_safe_in_my_community,0.5,4
+American Samoa,-0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,1,4
+American Samoa,-0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,1,4
+American Samoa,-0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.5,4
+American Samoa,-0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.75,4
+American Samoa,-0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,-0.5,4
+American Samoa,-0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.5,4
+American Samoa,-0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1,4
+American Samoa,-0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,-0.25,4
+American Samoa,-0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,-0.75,4
+American Samoa,-0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,-0.25,4
+American Samoa,-0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,-0.25,4
+American Samoa,-0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.25,4
+American Samoa,-0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-0.25,4
+American Samoa,0.5,Q03,Q03_I_would_describe_myself_asResourceful,0.5,3
+American Samoa,0.5,Q04,Q04_I_would_describe_myself_asPatient,0.833333333,3
+American Samoa,0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.5,3
+American Samoa,0.5,Q06,Q06_I_would_describe_myself_asAdaptable,0.5,3
+American Samoa,0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,3
+American Samoa,0.5,Q08,Q08_I_would_describe_myself_asResilient,0.5,3
+American Samoa,0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.166666667,3
+American Samoa,0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.5,3
+American Samoa,0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.166666667,3
+American Samoa,0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.166666667,3
+American Samoa,0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.166666667,3
+American Samoa,0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,0.833333333,3
+American Samoa,0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,0.833333333,3
+American Samoa,0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,0.5,3
+American Samoa,0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.166666667,3
+American Samoa,0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.5,3
+American Samoa,0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.5,3
+American Samoa,0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.5,3
+American Samoa,0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.5,3
+American Samoa,0.5,Q23,Q23_andI_felt_safe_in_my_home,0.5,3
+American Samoa,0.5,Q24,Q24_andI_felt_safe_in_my_community,0.833333333,3
+American Samoa,0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.833333333,3
+American Samoa,0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.833333333,3
+American Samoa,0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1.166666667,3
+American Samoa,0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.833333333,3
+American Samoa,0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.166666667,3
+American Samoa,0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.833333333,3
+American Samoa,0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.166666667,3
+American Samoa,0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,3
+American Samoa,0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.5,3
+American Samoa,0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.5,3
+American Samoa,0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.833333333,3
+American Samoa,0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.5,3
+American Samoa,0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,3
+American Samoa,1.5,Q03,Q03_I_would_describe_myself_asResourceful,1.166666667,3
+American Samoa,1.5,Q04,Q04_I_would_describe_myself_asPatient,0.833333333,3
+American Samoa,1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1.166666667,3
+American Samoa,1.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.166666667,3
+American Samoa,1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.166666667,3
+American Samoa,1.5,Q08,Q08_I_would_describe_myself_asResilient,1.166666667,3
+American Samoa,1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,0.166666667,3
+American Samoa,1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.833333333,3
+American Samoa,1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,0.166666667,3
+American Samoa,1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.166666667,3
+American Samoa,1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.166666667,3
+American Samoa,1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,3
+American Samoa,1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,3
+American Samoa,1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,1.5,3
+American Samoa,1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1.5,3
+American Samoa,1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.5,3
+American Samoa,1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,1.5,3
+American Samoa,1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,1.5,3
+American Samoa,1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,1.5,3
+American Samoa,1.5,Q23,Q23_andI_felt_safe_in_my_home,0.833333333,3
+American Samoa,1.5,Q24,Q24_andI_felt_safe_in_my_community,1.166666667,3
+American Samoa,1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.833333333,3
+American Samoa,1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,1.166666667,3
+American Samoa,1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1.5,3
+American Samoa,1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.5,3
+American Samoa,1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.833333333,3
+American Samoa,1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.833333333,3
+American Samoa,1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.166666667,3
+American Samoa,1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,3
+American Samoa,1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.5,3
+American Samoa,1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.5,3
+American Samoa,1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,1.166666667,3
+American Samoa,1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.833333333,3
+American Samoa,1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,3
+China,-0.5,Q03,Q03_I_would_describe_myself_asResourceful,1.5,1
+China,-0.5,Q04,Q04_I_would_describe_myself_asPatient,0.5,1
+China,-0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1.5,1
+China,-0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.5,1
+China,-0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,-0.5,1
+China,-0.5,Q08,Q08_I_would_describe_myself_asResilient,1.5,1
+China,-0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.5,1
+China,-0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.5,1
+China,-0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,1
+China,-0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.5,1
+China,-0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.5,1
+China,-0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,1
+China,-0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,1
+China,-0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,1.5,1
+China,-0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1.5,1
+China,-0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.5,1
+China,-0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.5,1
+China,-0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.5,1
+China,-0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.5,1
+China,-0.5,Q23,Q23_andI_felt_safe_in_my_home,1.5,1
+China,-0.5,Q24,Q24_andI_felt_safe_in_my_community,0.5,1
+China,-0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,1.5,1
+China,-0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.5,1
+China,-0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.5,1
+China,-0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.5,1
+China,-0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,-0.5,1
+China,-0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.5,1
+China,-0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,-1.5,1
+China,-0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,1
+China,-0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.5,1
+China,-0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,-0.5,1
+China,-0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.5,1
+China,-0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.5,1
+China,-0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-0.5,1
+China,0.5,Q03,Q03_I_would_describe_myself_asResourceful,1,4
+China,0.5,Q04,Q04_I_would_describe_myself_asPatient,0,4
+China,0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1,4
+China,0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1,4
+China,0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,4
+China,0.5,Q08,Q08_I_would_describe_myself_asResilient,0.5,4
+China,0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,0.75,4
+China,0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.75,4
+China,0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,4
+China,0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.25,4
+China,0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.5,4
+China,0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,-0.25,4
+China,0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,0.5,4
+China,0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,0,4
+China,0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.25,4
+China,0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.5,4
+China,0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,-0.125,4
+China,0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.125,4
+China,0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.125,4
+China,0.5,Q23,Q23_andI_felt_safe_in_my_home,0.75,4
+China,0.5,Q24,Q24_andI_felt_safe_in_my_community,0.75,4
+China,0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.75,4
+China,0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.25,4
+China,0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1,4
+China,0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.75,4
+China,0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.5,4
+China,0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.25,4
+China,0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1,4
+China,0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,4
+China,0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,1,4
+China,0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0,4
+China,0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.25,4
+China,0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.25,4
+China,0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,4
+China,1.5,Q03,Q03_I_would_describe_myself_asResourceful,1.25,4
+China,1.5,Q04,Q04_I_would_describe_myself_asPatient,0.75,4
+China,1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1,4
+China,1.5,Q06,Q06_I_would_describe_myself_asAdaptable,0.75,4
+China,1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,1.25,4
+China,1.5,Q08,Q08_I_would_describe_myself_asResilient,1.5,4
+China,1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,0.75,4
+China,1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.75,4
+China,1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.75,4
+China,1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,0.5,4
+China,1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-1,4
+China,1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,4
+China,1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,4
+China,1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,1,4
+China,1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1,4
+China,1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.25,4
+China,1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,1,4
+China,1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,1.25,4
+China,1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,1.25,4
+China,1.5,Q23,Q23_andI_felt_safe_in_my_home,1.25,4
+China,1.5,Q24,Q24_andI_felt_safe_in_my_community,1,4
+China,1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,1,4
+China,1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0,4
+China,1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1.25,4
+China,1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.5,4
+China,1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.5,4
+China,1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.5,4
+China,1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1,4
+China,1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,4
+China,1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,1.25,4
+China,1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.5,4
+China,1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,1.5,4
+China,1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,1,4
+China,1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,4
+Ecuador,-1.5,Q03,Q03_I_would_describe_myself_asResourceful,1,2
+Ecuador,-1.5,Q04,Q04_I_would_describe_myself_asPatient,0.5,2
+Ecuador,-1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.5,2
+Ecuador,-1.5,Q06,Q06_I_would_describe_myself_asAdaptable,0.5,2
+Ecuador,-1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,1,2
+Ecuador,-1.5,Q08,Q08_I_would_describe_myself_asResilient,1.5,2
+Ecuador,-1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.5,2
+Ecuador,-1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,-0.5,2
+Ecuador,-1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,2
+Ecuador,-1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-1,2
+Ecuador,-1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-1,2
+Ecuador,-1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,-0.5,2
+Ecuador,-1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,-0.5,2
+Ecuador,-1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,-1,2
+Ecuador,-1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,-1,2
+Ecuador,-1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0,2
+Ecuador,-1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0,2
+Ecuador,-1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,-0.5,2
+Ecuador,-1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,-1,2
+Ecuador,-1.5,Q23,Q23_andI_felt_safe_in_my_home,-0.5,2
+Ecuador,-1.5,Q24,Q24_andI_felt_safe_in_my_community,0.5,2
+Ecuador,-1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.5,2
+Ecuador,-1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0,2
+Ecuador,-1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1,2
+Ecuador,-1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0,2
+Ecuador,-1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,1,2
+Ecuador,-1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,-0.5,2
+Ecuador,-1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,-1,2
+Ecuador,-1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,-1,2
+Ecuador,-1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,-1.5,2
+Ecuador,-1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0,2
+Ecuador,-1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,-1.5,2
+Ecuador,-1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.5,2
+Ecuador,-1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-1,2
+Ecuador,-0.5,Q03,Q03_I_would_describe_myself_asResourceful,1.083333333,12
+Ecuador,-0.5,Q04,Q04_I_would_describe_myself_asPatient,0.916666667,12
+Ecuador,-0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1,12
+Ecuador,-0.5,Q06,Q06_I_would_describe_myself_asAdaptable,0.916666667,12
+Ecuador,-0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.916666667,12
+Ecuador,-0.5,Q08,Q08_I_would_describe_myself_asResilient,0.916666667,12
+Ecuador,-0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.083333333,12
+Ecuador,-0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,-0.25,12
+Ecuador,-0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,12
+Ecuador,-0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.5,12
+Ecuador,-0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.666666667,12
+Ecuador,-0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,0.125,12
+Ecuador,-0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,-0.041666667,12
+Ecuador,-0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,-0.291666667,12
+Ecuador,-0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,-0.041666667,12
+Ecuador,-0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.375,12
+Ecuador,-0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,-0.125,12
+Ecuador,-0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.041666667,12
+Ecuador,-0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.041666667,12
+Ecuador,-0.5,Q23,Q23_andI_felt_safe_in_my_home,0.75,12
+Ecuador,-0.5,Q24,Q24_andI_felt_safe_in_my_community,0.416666667,12
+Ecuador,-0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.166666667,12
+Ecuador,-0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0,12
+Ecuador,-0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.416666667,12
+Ecuador,-0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.5,12
+Ecuador,-0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.416666667,12
+Ecuador,-0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,-0.166666667,12
+Ecuador,-0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,0.416666667,12
+Ecuador,-0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,-0.333333333,12
+Ecuador,-0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,-0.583333333,12
+Ecuador,-0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,-0.166666667,12
+Ecuador,-0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,-0.583333333,12
+Ecuador,-0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.5,12
+Ecuador,-0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-0.666666667,12
+Ecuador,0.5,Q03,Q03_I_would_describe_myself_asResourceful,1.055555556,18
+Ecuador,0.5,Q04,Q04_I_would_describe_myself_asPatient,0.833333333,18
+Ecuador,0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.888888889,18
+Ecuador,0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.111111111,18
+Ecuador,0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.944444444,18
+Ecuador,0.5,Q08,Q08_I_would_describe_myself_asResilient,0.888888889,18
+Ecuador,0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.388888889,18
+Ecuador,0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.222222222,18
+Ecuador,0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.666666667,18
+Ecuador,0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.333333333,18
+Ecuador,0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.166666667,18
+Ecuador,0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.055555556,18
+Ecuador,0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.055555556,18
+Ecuador,0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,0.722222222,18
+Ecuador,0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1.055555556,18
+Ecuador,0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.055555556,18
+Ecuador,0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.527777778,18
+Ecuador,0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.638888889,18
+Ecuador,0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.694444444,18
+Ecuador,0.5,Q23,Q23_andI_felt_safe_in_my_home,1.055555556,18
+Ecuador,0.5,Q24,Q24_andI_felt_safe_in_my_community,0.888888889,18
+Ecuador,0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.777777778,18
+Ecuador,0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.611111111,18
+Ecuador,0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.722222222,18
+Ecuador,0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.055555556,18
+Ecuador,0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.833333333,18
+Ecuador,0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.555555556,18
+Ecuador,0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1,18
+Ecuador,0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.388888889,18
+Ecuador,0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.166666667,18
+Ecuador,0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.444444444,18
+Ecuador,0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.666666667,18
+Ecuador,0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.333333333,18
+Ecuador,0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.444444444,18
+Ecuador,1.5,Q03,Q03_I_would_describe_myself_asResourceful,1.136363636,11
+Ecuador,1.5,Q04,Q04_I_would_describe_myself_asPatient,1.409090909,11
+Ecuador,1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1.318181818,11
+Ecuador,1.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.227272727,11
+Ecuador,1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,1.227272727,11
+Ecuador,1.5,Q08,Q08_I_would_describe_myself_asResilient,1.045454545,11
+Ecuador,1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.409090909,11
+Ecuador,1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.772727273,11
+Ecuador,1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.409090909,11
+Ecuador,1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,0.136363636,11
+Ecuador,1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.136363636,11
+Ecuador,1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.318181818,11
+Ecuador,1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.318181818,11
+Ecuador,1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,1.136363636,11
+Ecuador,1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1.136363636,11
+Ecuador,1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.5,11
+Ecuador,1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.363636364,11
+Ecuador,1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.636363636,11
+Ecuador,1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.545454545,11
+Ecuador,1.5,Q23,Q23_andI_felt_safe_in_my_home,1.409090909,11
+Ecuador,1.5,Q24,Q24_andI_felt_safe_in_my_community,1.045454545,11
+Ecuador,1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.863636364,11
+Ecuador,1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.954545455,11
+Ecuador,1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.954545455,11
+Ecuador,1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.045454545,11
+Ecuador,1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.954545455,11
+Ecuador,1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.681818182,11
+Ecuador,1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.409090909,11
+Ecuador,1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.590909091,11
+Ecuador,1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.772727273,11
+Ecuador,1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.772727273,11
+Ecuador,1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.954545455,11
+Ecuador,1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.590909091,11
+Ecuador,1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.681818182,11
+Marshall Islands,-0.5,Q03,Q03_I_would_describe_myself_asResourceful,1,4
+Marshall Islands,-0.5,Q04,Q04_I_would_describe_myself_asPatient,0.75,4
+Marshall Islands,-0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.75,4
+Marshall Islands,-0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.25,4
+Marshall Islands,-0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,4
+Marshall Islands,-0.5,Q08,Q08_I_would_describe_myself_asResilient,0.75,4
+Marshall Islands,-0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.5,4
+Marshall Islands,-0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0,4
+Marshall Islands,-0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.75,4
+Marshall Islands,-0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.5,4
+Marshall Islands,-0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.75,4
+Marshall Islands,-0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,-1.25,4
+Marshall Islands,-0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,-0.25,4
+Marshall Islands,-0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,-1,4
+Marshall Islands,-0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,-0.25,4
+Marshall Islands,-0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,-0.25,4
+Marshall Islands,-0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,-0.75,4
+Marshall Islands,-0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,-1.5,4
+Marshall Islands,-0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,-0.5,4
+Marshall Islands,-0.5,Q23,Q23_andI_felt_safe_in_my_home,0.75,4
+Marshall Islands,-0.5,Q24,Q24_andI_felt_safe_in_my_community,1.25,4
+Marshall Islands,-0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.75,4
+Marshall Islands,-0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.75,4
+Marshall Islands,-0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.75,4
+Marshall Islands,-0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.25,4
+Marshall Islands,-0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.25,4
+Marshall Islands,-0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.25,4
+Marshall Islands,-0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1,4
+Marshall Islands,-0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,4
+Marshall Islands,-0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,-0.25,4
+Marshall Islands,-0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,-0.75,4
+Marshall Islands,-0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,-1,4
+Marshall Islands,-0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.5,4
+Marshall Islands,-0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-0.25,4
+Marshall Islands,0.5,Q03,Q03_I_would_describe_myself_asResourceful,0.944444444,9
+Marshall Islands,0.5,Q04,Q04_I_would_describe_myself_asPatient,0.833333333,9
+Marshall Islands,0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1.055555556,9
+Marshall Islands,0.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.166666667,9
+Marshall Islands,0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,1.055555556,9
+Marshall Islands,0.5,Q08,Q08_I_would_describe_myself_asResilient,0.944444444,9
+Marshall Islands,0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.777777778,9
+Marshall Islands,0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.222222222,9
+Marshall Islands,0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.555555556,9
+Marshall Islands,0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.333333333,9
+Marshall Islands,0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.666666667,9
+Marshall Islands,0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,-0.222222222,9
+Marshall Islands,0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,0.222222222,9
+Marshall Islands,0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,-0.333333333,9
+Marshall Islands,0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.222222222,9
+Marshall Islands,0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.111111111,9
+Marshall Islands,0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,-0.166666667,9
+Marshall Islands,0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.166666667,9
+Marshall Islands,0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,-0.055555556,9
+Marshall Islands,0.5,Q23,Q23_andI_felt_safe_in_my_home,0.888888889,9
+Marshall Islands,0.5,Q24,Q24_andI_felt_safe_in_my_community,1,9
+Marshall Islands,0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,1,9
+Marshall Islands,0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,1.166666667,9
+Marshall Islands,0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.944444444,9
+Marshall Islands,0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.277777778,9
+Marshall Islands,0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.833333333,9
+Marshall Islands,0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.611111111,9
+Marshall Islands,0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.166666667,9
+Marshall Islands,0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.611111111,9
+Marshall Islands,0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.166666667,9
+Marshall Islands,0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.166666667,9
+Marshall Islands,0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,-0.055555556,9
+Marshall Islands,0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,-0.5,9
+Marshall Islands,0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,-0.277777778,9
+Marshall Islands,1.5,Q03,Q03_I_would_describe_myself_asResourceful,0.5,1
+Marshall Islands,1.5,Q04,Q04_I_would_describe_myself_asPatient,0.5,1
+Marshall Islands,1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,1.5,1
+Marshall Islands,1.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.5,1
+Marshall Islands,1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,1
+Marshall Islands,1.5,Q08,Q08_I_would_describe_myself_asResilient,0.5,1
+Marshall Islands,1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.5,1
+Marshall Islands,1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.5,1
+Marshall Islands,1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,0.5,1
+Marshall Islands,1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,0.5,1
+Marshall Islands,1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,0.5,1
+Marshall Islands,1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,1
+Marshall Islands,1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,1
+Marshall Islands,1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,1.5,1
+Marshall Islands,1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.5,1
+Marshall Islands,1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.5,1
+Marshall Islands,1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.5,1
+Marshall Islands,1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,1.5,1
+Marshall Islands,1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,1.5,1
+Marshall Islands,1.5,Q23,Q23_andI_felt_safe_in_my_home,1.5,1
+Marshall Islands,1.5,Q24,Q24_andI_felt_safe_in_my_community,1.5,1
+Marshall Islands,1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,1.5,1
+Marshall Islands,1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,1.5,1
+Marshall Islands,1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,1.5,1
+Marshall Islands,1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.5,1
+Marshall Islands,1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.5,1
+Marshall Islands,1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,1.5,1
+Marshall Islands,1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.5,1
+Marshall Islands,1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,1.5,1
+Marshall Islands,1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,1.5,1
+Marshall Islands,1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,-1.5,1
+Marshall Islands,1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,1.5,1
+Marshall Islands,1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,1.5,1
+Marshall Islands,1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,1
+Namibia,0.5,Q03,Q03_I_would_describe_myself_asResourceful,0.5,1
+Namibia,0.5,Q04,Q04_I_would_describe_myself_asPatient,0.5,1
+Namibia,0.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.5,1
+Namibia,0.5,Q06,Q06_I_would_describe_myself_asAdaptable,0.5,1
+Namibia,0.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,1
+Namibia,0.5,Q08,Q08_I_would_describe_myself_asResilient,0.5,1
+Namibia,0.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,-0.5,1
+Namibia,0.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.5,1
+Namibia,0.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,1
+Namibia,0.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.5,1
+Namibia,0.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.5,1
+Namibia,0.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,1
+Namibia,0.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,1
+Namibia,0.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,0.5,1
+Namibia,0.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,0.5,1
+Namibia,0.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,0.5,1
+Namibia,0.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.5,1
+Namibia,0.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,0.5,1
+Namibia,0.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.5,1
+Namibia,0.5,Q23,Q23_andI_felt_safe_in_my_home,0.5,1
+Namibia,0.5,Q24,Q24_andI_felt_safe_in_my_community,0.5,1
+Namibia,0.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.5,1
+Namibia,0.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.5,1
+Namibia,0.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.5,1
+Namibia,0.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,0.5,1
+Namibia,0.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,-0.5,1
+Namibia,0.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.5,1
+Namibia,0.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.5,1
+Namibia,0.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,1
+Namibia,0.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,0.5,1
+Namibia,0.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.5,1
+Namibia,0.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.5,1
+Namibia,0.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.5,1
+Namibia,0.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,1
+Namibia,1.5,Q03,Q03_I_would_describe_myself_asResourceful,0.5,1
+Namibia,1.5,Q04,Q04_I_would_describe_myself_asPatient,1.5,1
+Namibia,1.5,Q05,Q05_I_would_describe_myself_asCulturally_Competent,0.5,1
+Namibia,1.5,Q06,Q06_I_would_describe_myself_asAdaptable,1.5,1
+Namibia,1.5,Q07,Q07_I_would_describe_myself_asEmotionally_Intelligent,0.5,1
+Namibia,1.5,Q08,Q08_I_would_describe_myself_asResilient,1.5,1
+Namibia,1.5,Q09,Q09_Professional_Learning_Communities_PLCs_were_useful_to_me,0.5,1
+Namibia,1.5,Q10,Q10_The_Five_Step_Lesson_Plan_Template_was_useful_to_me,0.5,1
+Namibia,1.5,Q11,Q11_The_Data_Analysis_Tool_was_useful_to_me,-0.5,1
+Namibia,1.5,Q12,Q12_The_Professional_Development_Modules_Scholarly_Articles_were_useful_to_me,-0.5,1
+Namibia,1.5,Q13,Q13_WorldTeachNet_was_useful_to_me,-0.5,1
+Namibia,1.5,Q14,Q14_Please_rate_the_Field_Director_on_the_following1_Was_accessible_and_eager_to_help,1.5,1
+Namibia,1.5,Q15,Q15_Please_rate_the_Field_Director_on_the_following2_Responded_promptly_to_requests_for_help,1.5,1
+Namibia,1.5,Q16,Q16_Please_rate_the_Field_Director_on_the_following3_Anticipated_needs_of_volunteers,0.5,1
+Namibia,1.5,Q17,Q17_Please_rate_the_Field_Director_on_the_following4_Followed_through_on_administrative_site_or_housing_issues,1.5,1
+Namibia,1.5,Q18,Q18_Please_rate_the_Field_Director_on_the_following5_Kept_volunteers_informed_of_changes_and_relevant_information,1.5,1
+Namibia,1.5,Q20,Q20_If_yesa_The_site_visit_was_useful_to_me,0.5,1
+Namibia,1.5,Q21,Q21_If_yesb_The_field_staff_member_made_me_feel_supported,1.5,1
+Namibia,1.5,Q22,Q22_If_yesc_The_field_staff_member_gave_me_useful_and_professional_feedback,0.5,1
+Namibia,1.5,Q23,Q23_andI_felt_safe_in_my_home,1.5,1
+Namibia,1.5,Q24,Q24_andI_felt_safe_in_my_community,0.5,1
+Namibia,1.5,Q25,Q25_andI_felt_safe_in_my_country_of_service,0.5,1
+Namibia,1.5,Q28,Q28_WorldTeacha_Offered_a_useful_service_to_the_host_country,0.5,1
+Namibia,1.5,Q29,Q29_WorldTeachb_Gave_me_a_meaningful_teaching_experience,0.5,1
+Namibia,1.5,Q30,Q30_WorldTeachc_Increased_my_understanding_of_another_culture,1.5,1
+Namibia,1.5,Q31,Q31_WorldTeachd_Improved_my_skills_in_the_local_language,0.5,1
+Namibia,1.5,Q32,Q32_WorldTeache_Helped_definechange_my_career_outlook,0.5,1
+Namibia,1.5,Q33,Q33_WorldTeachf_Provided_a_worthwhile_experience,1.5,1
+Namibia,1.5,Q34,Q34_useful_during_my_year_of_servicePredeparture_materials_and_assistance,0.5,1
+Namibia,1.5,Q35,Q35_useful_during_my_year_of_serviceOrientation_and_incountry_training,1.5,1
+Namibia,1.5,Q36,Q36_useful_during_my_year_of_serviceMidService_Conference,0.5,1
+Namibia,1.5,Q37,Q37_useful_during_my_year_of_serviceIncountry_staff_support_and_communication_with_Field_Director,0.5,1
+Namibia,1.5,Q38,Q38_useful_during_my_year_of_serviceSite_visitteaching_observation_by_Field_Director,0.5,1
+Namibia,1.5,Q39,Q39_useful_during_my_year_of_serviceEndofService,0.5,1
