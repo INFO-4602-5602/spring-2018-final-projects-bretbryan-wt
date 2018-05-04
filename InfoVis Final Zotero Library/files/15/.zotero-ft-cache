@@ -1,0 +1,308 @@
+
+Data Revelations
+Interactive visualization development, consulting, and training
+
+    Book
+    Blog
+    Workshops
+    Visualizing Survey Data
+    Examples
+    About
+    Contact
+
+Likert vs. Likert on a Scatterplot
+Sep 16 2014
+ 
+
+Finally, a good use for packed bubbles!
+The Problem
+
+I recently received a query from a client on how to compare responses to one question with responses to another question when both questions have possible LIkert values of 1, 2, 3, 4, and 5.  That is, if you have a collection of questions like this:
+
+01_LIkert
+
+How would you show response clusters when you compare “Good Job Skills” against “Likes the Beatles”?
+
+This question is particularly applicable if you are a provider of goods and services and you want to see if there is alignment or misalignment between “how important is this feature” and “how satisfied are you with this feature”.
+
+Note: There’s a Tableau forum thread that has been looking into this issue as well.  Please see http://community.tableausoftware.com/thread/137719 .
+
+So, how can we fashion something that helps us understand the data?
+
+Before we get into the nitty gritty here’s a screen shot of one of the approaches I favor.  Have a look to determine if reading the rest of the blog post is worth the effort.
+
+02_PreviewResults
+
+Still reading?  Well, I guess it’s worth the effort.
+The Traditional Scatterplot Approach
+
+Consider the set up below where we see how Tableau would present the Likert vs. Likert results in a standard scatterplot.
+
+03_TradScatterPlot
+
+So, what is going on here?
+
+There are a total of nine Likert questions available from the X-Question and Y-Question parameter drop down list boxes.  Our desire here is to allow us to compare any two of the nine at any time.
+
+The “meat” of the visualization comes from the SUM(X-Value) on the columns shelf and SUM(Y-Values) on the rows shelf where X-Value and Y-Value are both defined as
+
+IF [Wording]=[X-Question] then [Value]+1 END
+
+This translates into “if the selected item from the list is the same as one of the questions you want to analyze, use the [Value] for that question”. Note that [Wording] is the same as [QuestionID] but with human readable values (e.g., “Likes the Beatles” instead of “Q52”)
+
+We use [Value]+1 is because the Likert values are set to go from 0 to 4 instead of 1 to 5, and most people expect 1 to 5.
+
+We can use SUM(X-Value) and SUM(Y-Value) because we have Resp ID on the Details shelf.  This forces Tableau to draw a circle for every respondent.  The problem is that we have overlapping circles and even with transparency you don’t get a sense of where responses cluster. Yes, it is possible with a table calculation to change the size of the circle based on count but we’ll I’ll provide what I think is a better approach below.
+
+A note about the filters: The Question filter is there to constrain our view so that we only concern ourselves with Likert Scale questions.  It isn’t necessary but is useful should we be experimenting with different approaches.  The SUM(X-Value) and SUM(Y-Value) filters remove nulls from the view.
+Packed Bubbles to the Rescue
+
+I’m not a big fan of packed bubbles ( see this post ) but for this situation we can use them and get some great results, as shown below.
+
+04_BubbleScatterPlot
+
+I’ve made a couple of changes to the traditional scatterplot visualization the most important being SUM(X-Value) and SUM(Y-Value) are now discrete and we get a trellised visualization instead of a continuous axis.  Note that I had to change the sort order of the Y-axis elements so that they appear in reverse order (5 down to 1).
+
+I got the packed bubbles by placing CNTD(Resp ID) on the size button. This assures that each bubble is the same size and triggers Tableau’s packing algorithm.
+
+Note that I also added an on-demand “Drill down” so that you can color the circles by different demographic dimensions.
+
+I’ve experimented with this with some large data sets and Tableau does a great job with packing the bubbles intelligently.
+What About Trend Lines?
+
+Since we are using discrete measures on the rows and columns shelves we cannot produce trend lines.  When I first started this project I experimented with more traditional jittering and was able, with a fair amount of fuss and bother, to produce this.
+
+05_TrendLineExample
+
+A special thanks to Jeffrey Shaffer who provided a link on how to create pseudo-random numbers in Tableau (thank you, Josh Milligan ).
+
+I prefer the example that doesn’t require the jittering, but if you need to trend lines or if you prefer the jittered look I’ve included the example in the downloaded packaged workbook (see below).
+
+It also occurred to me that the trend line would be based on the jittered values and not the actual values.  The same workbook contains a “home grown” trend line based on the actual values (courtesy of Joe Mako). It turns out the jittered trend line is almost identical to the non-jittered trend line so I suspect you won’t need to take the “home grown” approach.
+
+Update
+
+I received a number of comments here and on LinkedIn about the “drill down / break down” capability and that it is hard to see the percentage of dots by category.  For example, if you break down by generation do the dots for one generation cluster more in one part of the trellis than in others?
+
+I thought that in this case having a different-colored bubble per category where the size of the bubble was proportionate to the percentage of responses within that category made sense.
+
+Size by Category
+
+I thought building this would be easy, but I needed to call in the heavy artillery (Joe Mako).
+
+I’ll blog about the solution later. In the meantime the packaged workbook below contains this additional approach.
+Likert vs. Likert with Scatterplots
+Learn About Tableau
+Facebook Twitter Google+ Share
+[suffusion-the-author]
+[suffusion-the-author display='description']
+  Posted by swexler on September 16, 2014   1) General Discussions , 2) Visualizing Survey Data , 5) Business Visualizations , Blog   Tagged with: jitter , Likert , packed bubbles , scatterplot
+  12 Responses to “Likert vs. Likert on a Scatterplot”
+Comments (12)
+
+    Andy Cotgreave says:
+    September 17, 2014 at 7:56 am
+
+    Great post. You also inadvertently inspired one of my next Brinton posts. He did a scatterplot just like these in his 1914 book. I’d never seen one implemented since. But now I’ve got one!
+        swexler says:
+        September 17, 2014 at 9:53 am
+
+        Andy, I caught a break in that the packed bubbles worked well and are much easier to explain. The jitter technique is more complicated and I just know someone would challenge me to arrange the, in a circle rather than a square. Looking forward to your post.
+    Alex Kerin says:
+    September 17, 2014 at 10:02 am
+
+    Steve, great job as ever. On the embedded Tableau, it looks like your partitioning for the jitter may be off slightly – they are all in a straight line
+    swexler says:
+    September 17, 2014 at 10:41 am
+
+    Alex, thanks. I’m getting the results I expect and am wondering what you are seeing. Can you send me a screen shot at swexler@datarevelations.com ?
+
+    BTW, your mod suggestion for the INDEX() function has had many great side benefits besides it’s original intent, the best being that I can make the strip narrower than the axis.
+
+    Steve
+        Alex Kerin says:
+        September 17, 2014 at 9:48 pm
+
+        Odd, looks fine now. They were not in a square when I first was browsing.
+    Daniel Halperin says:
+    September 18, 2014 at 12:29 pm
+
+    I find the various breakdowns (e.g., Gender, your figure 2 here) hard to read. My brain is not very good at comparing “area of disk edge” to “area of disk interior”. Maybe you could pack the bubbles horizontally instead of radially?
+
+    Oh goodness, maybe the limit of that idea is a pie chart. Hmmmmmmmmmm…..
+
+    In any case, I find it really hard to tell whether male or female has larger area / more bubbles.
+        swexler says:
+        September 18, 2014 at 12:43 pm
+
+        Daniel,
+
+        The real question is the percentage of men / women that have chosen each combination, not the number. You can use the legend to highlight, but I’m working on a better way to show this. My fault for providing the drill-down option.
+
+        Steve
+    swexler says:
+    September 21, 2014 at 12:36 pm
+
+    Daniel, please see http://www.datarevelations.com/likert-vs-likert-on-a-scatterplot.html#update
+    KK Molugu says:
+    September 25, 2014 at 10:24 am
+
+    Hi Steve:
+
+    Good to meet you at TCC14 and I am winding off from that 🙂
+
+    Great post on the likert-vs.likert relationship. I came across a situation (kind of similar) to this one at work with my survey analytics project and wanted to run it by you.
+
+    Of the many questions; we want to compare two questions;
+    Q#1 – First Call Resolution (FCR) – Allowed answers True or False
+    — This question basically allows us to see if we were able to solve customers question with one call
+    — True means YES we solved and False means NO we did not solve and customer called multiple times
+
+    Q#2- Overall Quality (OQ) – Allowed answers 1 through 5 (1 low and 5 high)
+    — Basically tells us how customer rated the overall quality of the call
+    — we treat 4 and 5 as Top buckets and 1 to 3 as bottom buckets
+
+    Data is one record per customer call per question with an answer. Now, what we have to show is;
+    – what % of customer who answered True to FCR ended up with OQ buckets (top or bottom)
+    – what % of customer who answered False to FCR ended up with OQ buckets (top or bottom)
+
+    So, there are 4 combinations and we want to show this month over month using line graph.
+
+    What I did:
+    ————–
+    As we have one record per customer per question with an answer, I self joined the data set to get these two responses on a single line, as it was easy with the comparisons. I tried with table calcs , but couldn’t figure it out.
+
+    Is there a better way to do this than self joining the tables, as this will hit the performance. If you send in your email,
+
+    Thanks a bunch in advance.
+
+    ..kk
+
+    ..kk
+        swexler says:
+        September 25, 2014 at 10:53 am
+
+        KK,
+
+        I understand your desire not to do a self-join, but if you go that route you can just bring in selected questions.
+
+        Have a look at these posts as they may gave you what you want without generating tons of extra rows:
+
+        http://www.datarevelations.com/using-tableau-to-visualize-survey-data-part-2-%C2%BD.html
+
+        http://www.datarevelations.com/using-tableau-to-visualize-survey-data-part-3-dealing-with-multiple-memberships-for-respondents.html
+
+        Steve
+            KK Molugu says:
+            September 30, 2014 at 10:31 am
+
+            Thanks Steve:
+
+            I think self-joins gives more power to slice and dice, but with the limitations of duplicating data source. See if I can do this on the database side and create a view/table based on the data that I need and bring it in.
+
+            Thanks for your response. My survey project has been growing like crazy and hopefully I can share with the community soon
+
+            ..kk
+    Bruce Segal says:
+    December 31, 2014 at 1:36 pm
+
+    Steve: Did you also notice that if you change the mark type from circle to square, the viz goes from a packed bubble to a tree map. It alters the viz pretty dramatically and I’m not sure for the better. Bit, it may get at the issue Dan Halperin is trying to solve.
+
+    Bruce
+
+  Use Tableau? You Might Want To Use Alteryx, Too 	  Foreign Fighters in Iraq and Syria — Makeover
+JOIN OUR EMAIL LIST
+Categories
+
+    1) General Discussions
+    2) Visualizing Survey Data
+    3) Mostly Monthly Makeovers
+    4) Health and Social Issues
+    5) Business Visualizations
+    6) Sports and Entertainment
+    7) Newsletter
+    Blog
+    Front Page 1
+    Front Page 2
+    Front Page 3
+    Front Page 4
+
+Archives
+
+    May 2018
+    April 2018
+    March 2018
+    February 2018
+    January 2018
+    December 2017
+    November 2017
+    October 2017
+    September 2017
+    August 2017
+    July 2017
+    May 2017
+    April 2017
+    March 2017
+    February 2017
+    January 2017
+    November 2016
+    October 2016
+    September 2016
+    August 2016
+    June 2016
+    May 2016
+    April 2016
+    March 2016
+    February 2016
+    January 2016
+    December 2015
+    November 2015
+    October 2015
+    September 2015
+    August 2015
+    July 2015
+    June 2015
+    May 2015
+    March 2015
+    January 2015
+    December 2014
+    November 2014
+    September 2014
+    August 2014
+    June 2014
+    May 2014
+    March 2014
+    January 2014
+    October 2013
+    September 2013
+    August 2013
+    July 2013
+    June 2013
+    April 2013
+    March 2013
+    January 2013
+    December 2012
+    November 2012
+    July 2012
+    April 2012
+    March 2012
+    February 2012
+    January 2012
+    December 2011
+    October 2011
+    September 2011
+    August 2011
+    July 2011
+    April 2011
+    March 2011
+    February 2011
+
+  Subscribe in a reader
+© 2011-2016 Data Revelations LLC   	|   Briarcliff Manor, NY 10510   |   swexler@datarevelations.com   |  914.945.0567           Website by PettisDesign 	Suffusion theme by Sayontan Sinha
+:)
+✓
+Facebook Twitter Google+ Pinterest Email LinkedIn Reddit Tumblr WordPress Google Gmail WhatsApp StumbleUpon Amazon Wish List AOL Mail Balatarin BibSonomy Bitty Browser Blinklist Blogger BlogMarks Bookmarks.fr Box.net Buffer Care2 News CiteULike Copy Link Delicious Design Float Diary.Ru Diaspora Digg Diigo Douban Draugiem DZone Evernote Facebook Messenger Fark Flipboard Folkd Google Bookmarks Google Classroom Hacker News Hatena Houzz Instapaper Kakao Kik Kindle It Known Line LiveJournal Mail.Ru Mastodon Mendeley Meneame Mixi MySpace Netvouz Odnoklassniki Outlook.com Papaly Pinboard Plurk Pocket Polyvore Print PrintFriendly Protopage Bookmarks Pusha Qzone Rediff MyPage Refind Renren Sina Weibo SiteJot Skype Slashdot SMS StockTwits Svejo Symbaloo Feeds Telegram Threema Trello Tuenti Twiddla TypePad Post Viadeo Viber VK Wanelo WeChat Wykop XING Yahoo Bookmarks Yahoo Mail Yahoo Messenger Yoolink Yummly
+AddToAny
+Facebook Twitter Google+ Pinterest Email LinkedIn Reddit Tumblr
+Google Gmail AOL Mail Outlook.com Yahoo Mail Email app
+More…

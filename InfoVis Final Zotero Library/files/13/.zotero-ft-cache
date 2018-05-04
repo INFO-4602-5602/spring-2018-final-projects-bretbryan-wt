@@ -1,0 +1,379 @@
+ Skip to main content
+Tableau Software
+
+    Pricing
+    Sign In
+    Search
+    Try Now
+
+Search
+
+    Products
+    Solutions
+    Learning
+    Community
+    Support
+    About
+
+Menu
+Back Products Overview
+Tableau Desktop
+
+Analytics anyone can use.
+
+Learn More
+Tableau Prep
+
+Data prep anyone can use.
+
+Learn More
+Tableau Server
+
+Analytics for organizations.
+
+Learn More
+Tableau Online
+
+Cloud analytics for organizations
+
+Learn More
+More Tableau Products
+
+    Tableau Public
+
+    Publish interactive data on websites.
+    Embedded Analytics
+
+    Read Tableau Desktop files for free.
+    Developer Tools
+
+    Extend Tableau to fit your organization's needs.
+    Pricing
+
+    Explore our pricing options.
+    Vizable
+
+    Explore data on an iPad, free.
+
+Back Solutions Overview
+Industries
+
+Explore Tableau’s solutions for your industry.
+
+Learn More
+Departments
+
+See what’s possible for your department.
+
+Learn More
+Technology
+
+Learn how we integrate with your data source.
+
+Learn More
+More about our solutions
+
+    Capabilities
+    Viz Gallery
+
+    See what's possible with Tableau.
+    Enterprise IT
+    Customer Stories
+
+Back Learning Overview
+Free Training Videos
+
+Learn Tableau with these bite-sized videos.
+
+Learn More
+eLearning
+
+Interactive, self-paced learning at scale.
+
+Learn More
+Classroom Training
+
+Multi-day courses offered around the world.
+
+Learn More
+More Ways to Learn
+
+    Live Online Training
+
+    One-hour sessions led by a Tableau pro.
+    Whitepapers
+
+    Technology, trends, and tips.
+    On-Demand Webinars
+
+    Learn from experts.
+    Product Demos
+
+    Live, online product walkthroughs.
+
+Back Community Overview
+Forums & User Groups
+
+Share knowledge and ideas with other Tableau users.
+
+Visit the Forums
+Partners
+
+Find a partner to help you make the most of Tableau.
+
+Find a Partner
+Events
+
+Stay up-to-date with the latest virtual and in-person events.
+
+Learn More
+More About Community
+
+    Tableau Conference
+    TC Europe
+    Blog
+
+Back Support Overview
+Desktop Support
+
+Resources for Desktop authors.
+
+Learn More
+Prep Support
+
+Resources for Prep.
+
+Learn More
+Server Support
+
+Resources for Server administrators.
+
+Learn More
+Online Support
+
+Resources for Tableau in the cloud.
+
+Learn More
+More Support
+
+    Tableau Help
+    Consulting Services
+
+    Jump-start your deployment or dashboard.
+    Customer Portal
+
+    Manage your Tableau accounts, product keys, and support cases.
+    Knowledge Base
+
+    Explore technical articles.
+
+Back About Us
+Mission
+
+This matters to us.
+
+Learn More
+Leadership
+
+Our top brass.
+
+Learn More
+Newsroom
+
+Extra, extra! Read all about it.
+
+Learn More
+More About Our Company
+
+    Tableau Foundation
+
+    Let's build a better world with data.
+    Investors
+
+    News, events, and investor releases.
+    Careers
+
+    Join our team.
+    Research
+
+Back
+Quick Links
+
+    New Features
+    Starter Kit
+    Blog
+    Drivers
+    Certification
+
+Account Settings
+
+    Edit Account
+    Sign Out
+
+Back to Blog
+How to Visualize Sentiment and Inclination
+Share
+Guest Author
+January 14, 2016
+
+Note: The following is a guest post by Tableau Zen Master Steve Wexler .
+
+I spend a lot of time with survey data. Much of this data revolves around gauging people’s sentiments and tendencies using either a Likert Scale or a Net Promoter Score (NPS) type of thing.
+
+Here’s an example of gauging sentiment using a five-point Likert scale.
+
+Indicate how satisfied you are with the following:
+
+Here’s an example of measuring tendencies, using a four-point Likert scale.
+
+How often do you use the following learning modalities?
+
+So what’s a good way to visualize responses to these types of questions?
+
+Over the past ten years, I’ve spent thousands of hours working on the best ways to show how opinion and tendencies skew one way or another. I have found that in most cases, a divergent stacked bar chart helps me (and more importantly, my clients) best see what’s going on with the survey responses.
+
+In this blog posts we’ll:
+
+    See an example of a divergent stacked bar chart (also called a staggered stacked bar chart).
+    Work through a data visualization improvement process.
+    Show how to visualize different scales (e.g., NPS, Top three/Bottom three, five-point Likert, etc.)
+    Show sentiment and tendencies over time.
+    Present a dashboard that will allow you to experiment with different visualization approaches.
+
+Note: For step-by-step instructions on how to build a Likert-scale divergent stacked bar chart in Tableau, check out my previous blog post .
+Divergent Stacked Bar vs. 100% Stacked Bar
+
+Readers of my newsletter and folks visiting the website may have seen my redesign of a New York Times infographic that showed the tendencies of politicians to lie or tell the truth. Here’s the 100% stacked bar chart that appeared in the New York Times :
+
+Here’s the redesign using a divergent stacked bar chart.
+
+In both charts, the overall length of the bars is the same. But with the divergent approach, the bars are shifted left or right to show which way a candidate leans. I, and others I’ve polled, find that shifting the bars makes the chart easier to understand.
+How We Got Here: Likert Scale Improvement Process
+
+Consider the table below that shows the results from a fictitious poll on the use of various learning modalities.
+
+I can’t glean anything meaningful from this. What about a bar chart?
+
+Wow, that’s really bad. What about a 100% stacked bar chart?
+
+Okay, that’s better, but it’s still pretty bad as Tableau’s default colors do nothing to help us see tendencies that are adjacent. That is, “often” and “sometimes” should have similar colors, as should “rarely” and “never.”
+
+So, let’s try using better colors (and don’t even think about using red and green .)
+
+This is certainly an improvement, but the modalities are listed alphabetically and not by how often they’re used. Let’s see what happens when we sort the bars.
+
+It’s taken us several tries, but it’s now easier to see which modalities are more popular.
+
+But we can do better. Here’s the same data rendered as a divergent stacked bar chart.
+
+Of course, we can also look take a coarser view and just compare sometimes/often with rarely/never, as shown here.
+
+I find that the divergent approach speaks to me and resonates with my colleagues and clients.
+Experiments Using Different Scales
+
+A while back, Helen Lindsey was kind enough to send me some data that contained responses to some Net Promoter Score questions. Specifically, folks were asked to rate companies/products on a zero-to-ten or one-to-ten scale.
+
+We compute NPS by subtracting the percentage of folks that are promoters (i.e., people who responded with a 9 or a 10), subtracting the percentage of folks that are detractors (i.e., people whose response fell between 0 and 6), and multiplying by a hundred.
+
+But sometimes my clients have questions that are on a ten- or eleven-point scale but instead want to compute the percentage of folks that responded with one of the top three boxes minus the percentage of folks that responded with the bottom three boxes.
+
+I realized that the Lindsey data set could provide a type of “sandbox” where we could experiment with different sentiment scales including NPS, top three minus bottom three, five-point Likert, three-point Likert, and two-point Likert.
+
+Let’s look at the results of some of these experiments.
+NPS
+
+Here are two ways we can visualize NPS data. The first shows the percentages of people that fall into the three categories.
+
+Here’s the same view, but with the NPS score superimposed over the divergent stacked bars.
+
+NPS over Time
+
+It turns out that divergent stacked bars are great at showing NPS trends over time. Here’s a view using percentages.
+
+Here’s the same view but with the score superimposed.
+
+Note: For some other interesting treatments of showing sentiment over time, see Joe Mako’s visualization on banker honesty .
+Net = Top Three Minus Bottom Three
+
+Let’s take the same data but divide it into the following buckets:
+
+    Positive = Top three boxes
+    Neutral = Middle four boxes
+    Negative = Bottom three boxes
+
+Here are the associated visualizations.
+
+Five-, Three-, and Two-Point Likert Scale Renderings
+
+Let’s suppose that instead of asking a questions on a one-through-ten scale, we instead asked folks to select one of the following five responses:
+
+    Strongly disagree
+    Disagree
+    Neutral
+    Agree
+    Strongly agree
+
+Here’s the same NPS data but rendered using a five-point Likert scale.
+
+And here’s the same data, but divided into positive, neutral, and negative sentiments (three-point Likert).
+
+Finally, here’s the same data, but only showing positive and negative sentiments (two-point Likert).
+
+Try It Yourself
+
+Here's a dashboard that lets you to explore different combinations of the one-to-ten scale.
+
+I strongly recommend you do NOT give your audience all these scaling options; these are here for you to experiment and see how the visualizations and ranking change based on what scales you use. The only option I would present to your audience is the ability to toggle back and forth between percentages and scores.
+Sentiment Dashboard
+
+Check out additional works by Steve on his Tableau Public page and on his blog, Data Revelations .
+You might also be interested in...
+Comments
+
+Submitted by Yusuf Suleiman (not verified) on January 14, 2016 - 11:22pm
+
+Nice article...very educating
+
+    reply
+
+Submitted by Brian Delehanty (not verified) on January 18, 2016 - 11:57am
+
+Such a great way to show ordinal information. If you don't happen to have compiled survey data, you can still accomplish the same effect with LOD expressions, too. I've been using it to show cancelled, current, and completed orders. Thanks for the article!
+
+    reply
+
+Add new comment
+Your name
+E-mail
+The content of this field is kept private and will not be shown publicly.
+Comment *
+Notify me when new comments are posted
+Leave this field blank
+Subscribe to our blog
+Business E-mail *
+Subscribe
+We respect your privacy
+English
+
+    English
+    简体中文
+    Français
+    Deutsch
+    日本語
+    한국어
+    Português
+    Español
+
+    System Status
+    Blog
+    Academic
+    Careers
+    Contact Us
+
+    Legal
+    Privacy
+    Uninstall
+
+© 2003-2018 Tableau Software. All Rights Reserved
+Quantcast
+%!(EXTRA string=5aea625d92b59f51c9df3da43e09380b)

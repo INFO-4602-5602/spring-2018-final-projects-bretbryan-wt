@@ -1,0 +1,2042 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.18.0404.1406                               -->
+<workbook original-version='10.5' source-build='10.5.3 (10500.18.0404.1406)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='avg_end_service_surveys' inline='true' name='federated.1dzifak12p7bdl14gicv91juolfp' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='avg_end_service_surveys' name='textscan.19tcu5q05eeeex17ubv1912xqtkj'>
+            <connection class='textscan' directory='C:/Users/bwmcs/OneDrive/Documents/GitHub/spring-2018-final-projects-bretbryan-wt/Jupyter Notebook' filename='avg_end_service_surveys.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.19tcu5q05eeeex17ubv1912xqtkj' name='avg_end_service_surveys.csv' table='[avg_end_service_surveys#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Program Country:Response' ordinal='1' />
+            <column datatype='integer' name='Program Start Year:Open-Ended Response' ordinal='2' />
+            <column datatype='integer' name='I would describe myself as:Resourceful' ordinal='3' />
+            <column datatype='integer' name='I would describe myself as:Patient' ordinal='4' />
+            <column datatype='integer' name='I would describe myself as:Culturally Competent' ordinal='5' />
+            <column datatype='integer' name='I would describe myself as:Adaptable' ordinal='6' />
+            <column datatype='integer' name='I would describe myself as:Emotionally Intelligent' ordinal='7' />
+            <column datatype='integer' name='I would describe myself as:Resilient' ordinal='8' />
+            <column datatype='real' name='Please rate the following:Professional Learning Communities (PLCs) were useful to me' ordinal='9' />
+            <column datatype='real' name='Please rate the following:The Five Step Lesson Plan Template was useful to me' ordinal='10' />
+            <column datatype='real' name='Please rate the following:The Data Analysis Tool was useful to me' ordinal='11' />
+            <column datatype='real' name='Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me' ordinal='12' />
+            <column datatype='real' name='Please rate the following:WorldTeachNet was useful to me' ordinal='13' />
+            <column datatype='real' name='Please rate the Field Director on the following:1. Was accessible and eager to help.' ordinal='14' />
+            <column datatype='real' name='Please rate the Field Director on the following:2. Responded promptly to requests for help.' ordinal='15' />
+            <column datatype='real' name='Please rate the Field Director on the following:3. Anticipated needs of volunteers.' ordinal='16' />
+            <column datatype='real' name='Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.' ordinal='17' />
+            <column datatype='real' name='Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.' ordinal='18' />
+            <column datatype='real' name='Has this field staff member conducted a site visit with you?Response' ordinal='19' />
+            <column datatype='real' name='If yes,a) The site visit was useful to me.' ordinal='20' />
+            <column datatype='real' name='If yes,b) The field staff member made me feel supported.' ordinal='21' />
+            <column datatype='real' name='If yes,c) The field staff member gave me useful and professional feedback.' ordinal='22' />
+            <column datatype='real' name='Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.' ordinal='23' />
+            <column datatype='real' name='Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.' ordinal='24' />
+            <column datatype='real' name='Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.' ordinal='25' />
+            <column datatype='integer' name='Please rank this statement:I would recommend WorldTeach to others' ordinal='26' />
+            <column datatype='integer' name='Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer' ordinal='27' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the ' ordinal='28' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful teaching ex' ordinal='29' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understanding of an' ordinal='30' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local ' ordinal='31' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my career o' ordinal='32' />
+            <column datatype='integer' name='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile experience' ordinal='33' />
+            <column datatype='integer' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu' ordinal='34' />
+            <column datatype='integer' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Orientation' ordinal='35' />
+            <column datatype='integer' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid-Service' ordinal='36' />
+            <column datatype='integer' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country ' ordinal='37' />
+            <column datatype='real' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Site visit/' ordinal='38' />
+            <column datatype='integer' name='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End-of-Serv' ordinal='39' />
+            <column datatype='real' name='Average:I would describe myself as:Resourceful' ordinal='40' />
+            <column datatype='real' name='Average:I would describe myself as:Patient' ordinal='41' />
+            <column datatype='real' name='Average:I would describe myself as:Culturally Competent' ordinal='42' />
+            <column datatype='real' name='Average:I would describe myself as:Adaptable' ordinal='43' />
+            <column datatype='real' name='Average:I would describe myself as:Emotionally Intelligent' ordinal='44' />
+            <column datatype='real' name='Average:I would describe myself as:Resilient' ordinal='45' />
+            <column datatype='real' name='Average:Please rate the following:Professional Learning Communities (PLCs) were useful to me' ordinal='46' />
+            <column datatype='real' name='Average:Please rate the following:The Five Step Lesson Plan Template was useful to me' ordinal='47' />
+            <column datatype='real' name='Average:Please rate the following:The Data Analysis Tool was useful to me' ordinal='48' />
+            <column datatype='real' name='Average:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me' ordinal='49' />
+            <column datatype='real' name='Average:Please rate the following:WorldTeachNet was useful to me' ordinal='50' />
+            <column datatype='real' name='Average:Please rate the Field Director on the following:1. Was accessible and eager to help.' ordinal='51' />
+            <column datatype='real' name='Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.' ordinal='52' />
+            <column datatype='real' name='Average:Please rate the Field Director on the following:3. Anticipated needs of volunteers.' ordinal='53' />
+            <column datatype='real' name='Average:Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.' ordinal='54' />
+            <column datatype='real' name='Average:Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.' ordinal='55' />
+            <column datatype='real' name='Average:Has this field staff member conducted a site visit with you?Response' ordinal='56' />
+            <column datatype='real' name='Average:If yes,a) The site visit was useful to me.' ordinal='57' />
+            <column datatype='real' name='Average:If yes,b) The field staff member made me feel supported.' ordinal='58' />
+            <column datatype='real' name='Average:If yes,c) The field staff member gave me useful and professional feedback.' ordinal='59' />
+            <column datatype='real' name='Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.' ordinal='60' />
+            <column datatype='real' name='Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.' ordinal='61' />
+            <column datatype='real' name='Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.' ordinal='62' />
+            <column datatype='real' name='Average:Please rank this statement:I would recommend WorldTeach to others' ordinal='63' />
+            <column datatype='real' name='Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v' ordinal='64' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service' ordinal='65' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea' ordinal='66' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi' ordinal='67' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th' ordinal='68' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my ' ordinal='69' />
+            <column datatype='real' name='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex' ordinal='70' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre' ordinal='71' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Ori' ordinal='72' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid' ordinal='73' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-' ordinal='74' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Sit' ordinal='75' />
+            <column datatype='real' name='Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End' ordinal='76' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Program Country:Response</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Program Country:Response]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Program Country:Response</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Program Start Year:Open-Ended Response</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Program Start Year:Open-Ended Response]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Program Start Year:Open-Ended Response</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Resourceful</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Resourceful]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Resourceful</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Patient</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Patient]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Patient</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Culturally Competent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Culturally Competent]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Culturally Competent</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Adaptable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Adaptable]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Adaptable</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Emotionally Intelligent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Emotionally Intelligent]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Emotionally Intelligent</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I would describe myself as:Resilient</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[I would describe myself as:Resilient]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>I would describe myself as:Resilient</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following:Professional Learning Communities (PLCs) were useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following:Professional Learning Communities (PLCs) were useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following:Professional Learning Communities (PLCs) were useful to me</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following:The Five Step Lesson Plan Template was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following:The Five Step Lesson Plan Template was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following:The Five Step Lesson Plan Template was useful to me</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following:The Data Analysis Tool was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following:The Data Analysis Tool was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following:The Data Analysis Tool was useful to me</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following:WorldTeachNet was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following:WorldTeachNet was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following:WorldTeachNet was useful to me</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the Field Director on the following:1. Was accessible and eager to help.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the Field Director on the following:1. Was accessible and eager to help.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the Field Director on the following:1. Was accessible and eager to help.</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the Field Director on the following:2. Responded promptly to requests for help.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the Field Director on the following:2. Responded promptly to requests for help.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the Field Director on the following:2. Responded promptly to requests for help.</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the Field Director on the following:3. Anticipated needs of volunteers.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the Field Director on the following:3. Anticipated needs of volunteers.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the Field Director on the following:3. Anticipated needs of volunteers.</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Has this field staff member conducted a site visit with you?Response</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Has this field staff member conducted a site visit with you?Response]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Has this field staff member conducted a site visit with you?Response</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>If yes,a) The site visit was useful to me.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[If yes,a) The site visit was useful to me.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>If yes,a) The site visit was useful to me.</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>If yes,b) The field staff member made me feel supported.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[If yes,b) The field staff member made me feel supported.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>If yes,b) The field staff member made me feel supported.</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>If yes,c) The field staff member gave me useful and professional feedback.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[If yes,c) The field staff member gave me useful and professional feedback.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>If yes,c) The field staff member gave me useful and professional feedback.</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rank this statement:I would recommend WorldTeach to others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rank this statement:I would recommend WorldTeach to others]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rank this statement:I would recommend WorldTeach to others</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the ]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the </remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful teaching ex</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful teaching ex]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful teaching ex</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understanding of an</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understanding of an]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understanding of an</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local ]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local </remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my career o</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my career o]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my career o</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile experience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile experience]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile experience</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Orientation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Orientation]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Orientation</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid-Service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid-Service]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid-Service</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country ]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country </remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Site visit/</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Site visit/]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Site visit/</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End-of-Serv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End-of-Serv]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End-of-Serv</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Resourceful</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Resourceful]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Resourceful</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Patient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Patient]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Patient</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Culturally Competent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Culturally Competent]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Culturally Competent</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Adaptable</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Adaptable]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Adaptable</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Emotionally Intelligent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Emotionally Intelligent]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Emotionally Intelligent</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:I would describe myself as:Resilient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:I would describe myself as:Resilient]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:I would describe myself as:Resilient</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following:Professional Learning Communities (PLCs) were useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following:Professional Learning Communities (PLCs) were useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following:Professional Learning Communities (PLCs) were useful to me</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following:The Five Step Lesson Plan Template was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following:The Five Step Lesson Plan Template was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following:The Five Step Lesson Plan Template was useful to me</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following:The Data Analysis Tool was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following:The Data Analysis Tool was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following:The Data Analysis Tool was useful to me</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following:WorldTeachNet was useful to me</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following:WorldTeachNet was useful to me]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following:WorldTeachNet was useful to me</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the Field Director on the following:1. Was accessible and eager to help.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the Field Director on the following:1. Was accessible and eager to help.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the Field Director on the following:1. Was accessible and eager to help.</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the Field Director on the following:3. Anticipated needs of volunteers.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the Field Director on the following:3. Anticipated needs of volunteers.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the Field Director on the following:3. Anticipated needs of volunteers.</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the Field Director on the following:4. Followed through on administrative, site, or housing issues.</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the Field Director on the following:5. Kept volunteers informed of changes and relevant information.</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Has this field staff member conducted a site visit with you?Response</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Has this field staff member conducted a site visit with you?Response]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Has this field staff member conducted a site visit with you?Response</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:If yes,a) The site visit was useful to me.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:If yes,a) The site visit was useful to me.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:If yes,a) The site visit was useful to me.</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:If yes,b) The field staff member made me feel supported.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:If yes,b) The field staff member made me feel supported.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:If yes,b) The field staff member made me feel supported.</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:If yes,c) The field staff member gave me useful and professional feedback.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:If yes,c) The field staff member gave me useful and professional feedback.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:If yes,c) The field staff member gave me useful and professional feedback.</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my home.</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my community.</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate your agreement to the following aspects of safety during your service.I felt safe in my country of service.</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rank this statement:I would recommend WorldTeach to others</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rank this statement:I would recommend WorldTeach to others]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rank this statement:I would recommend WorldTeach to others</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my ]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my </remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Ori</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Ori]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Ori</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Mid</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Sit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Sit]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Sit</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End]</local-name>
+            <parent-name>[avg_end_service_surveys.csv]</parent-name>
+            <remote-alias>Average:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:End</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Average:Has this field staff member conducted a site visit with you?Response]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Adaptable]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Culturally Competent]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Emotionally Intelligent]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Patient]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Resilient]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:I would describe myself as:Resourceful]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:If yes,a) The site visit was useful to me.]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:If yes,b) The field staff member made me feel supported.]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:If yes,c) The field staff member gave me useful and professional feedback.]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th]' role='measure' type='quantitative' />
+      <column caption='Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my' datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my ]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:Please rank this statement:I would recommend WorldTeach to others]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:Please rate the Field Director on the following:1. Was accessible and eager to help.]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.]' role='measure' type='quantitative' />
+      <column caption='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the' datatype='integer' name='[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service to the ]' role='measure' type='quantitative' />
+      <column caption='In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local' datatype='integer' name='[In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in the local ]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer]' new-bin='true'>
+          <bin default-name='true' value='&quot;-1&quot;'>
+            <value>-1</value>
+          </bin>
+          <bin default-name='true' value='&quot;-2&quot;'>
+            <value>-2</value>
+          </bin>
+          <bin default-name='true' value='&quot;1&quot;'>
+            <value>1</value>
+          </bin>
+          <bin default-name='true' value='&quot;2&quot;'>
+            <value>2</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Please rank this statement:I would recommend WorldTeach to others (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Please rank this statement:I would recommend WorldTeach to others]' new-bin='true'>
+          <bin default-name='true' value='&quot;-1&quot;'>
+            <value>-1</value>
+          </bin>
+          <bin default-name='true' value='&quot;-2&quot;'>
+            <value>-2</value>
+          </bin>
+          <bin default-name='true' value='&quot;1&quot;'>
+            <value>1</value>
+          </bin>
+          <bin default-name='true' value='&quot;2&quot;'>
+            <value>2</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Please rank this statement:I would recommend WorldTeach to others]' role='measure' type='quantitative' />
+      <column caption='Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country' datatype='integer' name='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:In-country ]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Please rate the following:The Data Analysis Tool was useful to me]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Program Country:Response]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column-instance column='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' derivation='Avg' name='[avg:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' derivation='Avg' name='[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Data Analysis Tool was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' derivation='Avg' name='[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:Has this field staff member conducted a site visit with you?Response]' derivation='Sum' name='[sum:Average:Has this field staff member conducted a site visit with you?Response:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Adaptable]' derivation='Sum' name='[sum:Average:I would describe myself as:Adaptable:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Culturally Competent]' derivation='Sum' name='[sum:Average:I would describe myself as:Culturally Competent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Emotionally Intelligent]' derivation='Sum' name='[sum:Average:I would describe myself as:Emotionally Intelligent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Patient]' derivation='Sum' name='[sum:Average:I would describe myself as:Patient:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Resilient]' derivation='Sum' name='[sum:Average:I would describe myself as:Resilient:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:I would describe myself as:Resourceful]' derivation='Sum' name='[sum:Average:I would describe myself as:Resourceful:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:If yes,a) The site visit was useful to me.]' derivation='Sum' name='[sum:Average:If yes,a) The site visit was useful to me.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:If yes,b) The field staff member made me feel supported.]' derivation='Sum' name='[sum:Average:If yes,b) The field staff member made me feel supported.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:If yes,c) The field staff member gave me useful and professional feedback.]' derivation='Sum' name='[sum:Average:If yes,c) The field staff member gave me useful and professional feedback.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my ]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my :qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex]' derivation='Sum' name='[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v]' derivation='Sum' name='[sum:Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:Please rank this statement:I would recommend WorldTeach to others]' derivation='Sum' name='[sum:Average:Please rank this statement:I would recommend WorldTeach to others:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:Please rate the Field Director on the following:1. Was accessible and eager to help.]' derivation='Sum' name='[sum:Average:Please rate the Field Director on the following:1. Was accessible and eager to help.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.]' derivation='Sum' name='[sum:Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' derivation='Sum' name='[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' derivation='Sum' name='[sum:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Data Analysis Tool was useful to me]' derivation='Sum' name='[sum:Please rate the following:The Data Analysis Tool was useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' derivation='Sum' name='[sum:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' derivation='Sum' name='[sum:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.142857' measure-ordering='alphabetic' measure-percentage='0.857143' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:If yes,b) The field staff member made me feel supported.:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:Has this field staff member conducted a site visit with you?Response:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Patient:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...c) Increased my understandi:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:If yes,c) The field staff member gave me useful and professional feedback.:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Resilient:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:Please rate the Field Director on the following:1. Was accessible and eager to help.:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Adaptable:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a v:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Resourceful:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...d) Improved my skills in th:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...e) Helped define/change my :qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:Please rank this statement:I would recommend WorldTeach to others:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:Please rate the Field Director on the following:2. Responded promptly to requests for help.:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...a) Offered a useful service:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:If yes,a) The site visit was useful to me.:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Culturally Competent:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...f) Provided a worthwhile ex:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:In retrospect, please rate the following aspects of the WorldTeach experience. WorldTeach...b) Gave me a meaningful tea:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Average:I would describe myself as:Emotionally Intelligent:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='avg_end_service_surveys' name='federated.1dzifak12p7bdl14gicv91juolfp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dzifak12p7bdl14gicv91juolfp'>
+            <column datatype='string' name='[Please rank this statement:I would recommend WorldTeach to others (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Please rank this statement:I would recommend WorldTeach to others]' new-bin='true'>
+                <bin default-name='true' value='&quot;-1&quot;'>
+                  <value>-1</value>
+                </bin>
+                <bin default-name='true' value='&quot;-2&quot;'>
+                  <value>-2</value>
+                </bin>
+                <bin default-name='true' value='&quot;1&quot;'>
+                  <value>1</value>
+                </bin>
+                <bin default-name='true' value='&quot;2&quot;'>
+                  <value>2</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Please rank this statement:I would recommend WorldTeach to others]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Data Analysis Tool was useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Program Country:Response]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' derivation='Avg' name='[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Data Analysis Tool was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' derivation='Avg' name='[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program Country:Response]' derivation='None' name='[none:Program Country:Response:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' derivation='Sum' name='[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]&quot;</bucket>
+            </dictionary>
+          </sort>
+          <sort class='manual' column='[federated.1dzifak12p7bdl14gicv91juolfp].[Please rank this statement:I would recommend WorldTeach to others (group)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;2&quot;</bucket>
+              <bucket>&quot;1&quot;</bucket>
+              <bucket>&quot;-1&quot;</bucket>
+              <bucket>&quot;-2&quot;</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;American Samoa&quot;' />
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;Ecuador&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]</column>
+            <column>[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1dzifak12p7bdl14gicv91juolfp].[Multiple Values]</rows>
+        <cols>([federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk] / ([federated.1dzifak12p7bdl14gicv91juolfp].[Please rank this statement:I would recommend WorldTeach to others (group)] / [federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='avg_end_service_surveys' name='federated.1dzifak12p7bdl14gicv91juolfp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dzifak12p7bdl14gicv91juolfp'>
+            <column datatype='string' name='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer]' new-bin='true'>
+                <bin default-name='true' value='&quot;-1&quot;'>
+                  <value>-1</value>
+                </bin>
+                <bin default-name='true' value='&quot;-2&quot;'>
+                  <value>-2</value>
+                </bin>
+                <bin default-name='true' value='&quot;1&quot;'>
+                  <value>1</value>
+                </bin>
+                <bin default-name='true' value='&quot;2&quot;'>
+                  <value>2</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Data Analysis Tool was useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Program Country:Response]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Please rate the following:Professional Learning Communities (PLCs) were useful to me]' derivation='Avg' name='[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Data Analysis Tool was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Five Step Lesson Plan Template was useful to me]' derivation='Avg' name='[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me]' derivation='Avg' name='[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program Country:Response]' derivation='None' name='[none:Program Country:Response:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu]' derivation='Sum' name='[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:Professional Learning Communities (PLCs) were useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Data Analysis Tool was useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Five Step Lesson Plan Template was useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[avg:Please rate the following:The Professional Development Modules (Scholarly Articles) were useful to me:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dzifak12p7bdl14gicv91juolfp].[sum:Please rate the following: I found the following WorldTeach program features to be useful during my year of service:Pre-departu:qk]&quot;</bucket>
+            </dictionary>
+          </sort>
+          <sort class='manual' column='[federated.1dzifak12p7bdl14gicv91juolfp].[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer (group)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;2&quot;</bucket>
+              <bucket>&quot;1&quot;</bucket>
+              <bucket>&quot;-1&quot;</bucket>
+              <bucket>&quot;-2&quot;</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;American Samoa&quot;' />
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Program Country:Response:nk]' member='&quot;Ecuador&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]</column>
+            <column>[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1dzifak12p7bdl14gicv91juolfp].[Multiple Values]</rows>
+        <cols>([federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk] / ([federated.1dzifak12p7bdl14gicv91juolfp].[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer (group)] / [federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='250'>
+            <card size='20' type='pages' />
+            <card size='52' type='filters' />
+            <card size='7' type='marks' />
+            <card size='232' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='250'>
+            <card pane-specification-id='0' param='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]</field>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[Please rank this statement:I would recommend WorldTeach to others (group)]</field>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='312'>
+            <card size='16' type='pages' />
+            <card size='41' type='filters' />
+            <card size='5' type='marks' />
+            <card size='185' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='312'>
+            <card pane-specification-id='0' param='[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[:Measure Names]</field>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[Please answer the following question:I am satisfied with the service and support I have received from WorldTeach as a volunteer (group)]</field>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[Please rank this statement:I would recommend WorldTeach to others (group)]</field>
+            <field>[federated.1dzifak12p7bdl14gicv91juolfp].[none:Program Country:Response:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      EQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1 (2)' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO29aYwlWXbf94uIF/H2/eWeWVVdVV1d1dM9G2eGw+FoSA1J0yYFemBAJm0L
+      hCzAtggYlrz7g2UPbMvyB5M2YANeAEEwKMCQBHkhbdLiDGeGPb3WXl2VteSe+fZ8+/5i94eX
+      lZmVmS8iqzszq3sy/t8i3v+dOPfeOHGXc869gm3bNh48nFOIr1oBDx5eJTwD8HCuceIGYOlD
+      fvTDH/DRnY+xPsXgqlbc4v0PP6Iz0Mc/S+tTa/WO/n9uhT//i5/ybC3/yZU4gAf37o3KpLf5
+      //70B9z++DFPHj85MfnjYVOt1uhUNtmqHi7vxvIi67ny7vWTx094+uQx4wa3H3/88SfXRB9Q
+      bfXYWH5Ca0zb1AurZI/Q01GupVGrtdlaeUqjr41uWhrvv/8Bd+/cx9hPtkweP106JOPpo49p
+      Nhv0VZOnTx5j7dzvtWr0NevItvK9lJbHKYgxpGfI9HMr/KRZRgpGkfUBQxTm0yHypQqxeIy1
+      XJW3v3Cd0uYKU/PzrG6VkCwbUfHz67/yHd798A5/5Xvfo7q5xM21PFPTswwNG6PfZNjvYOoG
+      M5kwP3jY5JtXEzQNkWjAT0QRUA2LIF0mX/sKj26/Q7+6QbVrMZ1Q6FkKstalb5kk03OU8luE
+      ExkGjSKqAVcvzpCv9bkwk2Yrm2Ph2he5MpfBNvq0+iaiABhdVCFKfukxuuQjIBqs58tcuXad
+      3PoSielL5FaWuPrmmxQ3VxGCCb71ja/w7OFdtio9YrKBpuukZ+bI5itcnIxjBWIUCmUSIR+C
+      qdJSRYKygWkpfP1r1/mHf/gP+ZWfv86jusxWJoFsdhnYfr7zrZ/jT//sz/nVX/1V/uwHj0hO
+      zpJfW0IULfyCyXq+TDoRRY4k2Cx2SIcsdN3g3R//EE03uHTtGhtPHzJ9/dssRAZ8+GCZUCSJ
+      aA/wAdFokHyxwszsDOVqm4WYwf9zt86vfHUWPbfG7WyeqZlpNle3kAIBJpNRoladWjzKTMjg
+      5t17BOMTFDc3sAQRSRL45V/551h5eJOOGeDafJqHjx6Tnknxkx8/4S9/+wbt9afcqbS4OhXi
+      w0cbfOOLl8kvL7KWLXLxtSusLK9QaQ15fSHFg5Uy5UKB2YkEmqaRfedP6cdvoBcfktva5Mu/
+      +F2e/MUf00p+nV72LoXNFS6+8Ra5rQ2mL904nSFQYWuFq299jXazwde+/Ca1vonVr3F7cZXr
+      8wkK5TKxuTcY1nKo/SbPltcJTSwgSSKCPnxuSpimyb2HT/nGz7/NkwcP2a7WKRQK1Dt9JmMy
+      YiDO5StXadaqfOOb36JXr5Cvd3jrrbdRBIsf//E/InXxDW7evI0iivgjYcqFPOVyhWtvf4Fb
+      P/oTApNXKefWaPU1grIJcoBeo8y7732AhoRtmgBsPFnk0vUbu2XcXH3GW1//FjJw+/YtJFmm
+      sLFMsz9gbX2LgF9iffURDxbXkUQRLJXllU3WVpapN9pcnEqy3TEQ9Q6aKHPzJz+ipw1pdbrc
+      unUbRZTIFbb55rd+nkAwysXXLjORjHDp2htsbz3j1v1FfJKIjY/p+QsE1W1SV75Cfn3vy/hs
+      aZ2337pKodHlnT/7MZLVoNE1qWxXaDR7zMSD3L1zm0gkzHZHZX35KRevvUllu0ypVKJYKPDR
+      rVsoiowk+xm2q4j+KK9ducKwXWfxwUPe+OovsLJ4B0MMonYbXL9xA3HnrWqUNqh0NVaXn6ET
+      wCf5SERkNN0kGolQzmZ5trJMt1Wlrfu4fPkKRq+BJfkxujV0KcRrV67S7TS4c+sWkk9ha3mR
+      qStfIKiIyKEEG49u0mv32Kq1aNerpCamuHr1CkowynRCod5VmchMcPXaVQLBKHNxH++99yFt
+      Q0CwTYSTXgWyDJWNXIXLl+ZZW13l0uXLrD19RN8OEJWGPHpwl9TVr3Fh4QL+YYV8pUEskUSJ
+      JLEGXbAtLl66SKta5OlajtevXOLpsxXeePMLrD97ghSKEg35SYRkpGia5cXHpNNJFi5fofzo
+      p6yLl5mRmsQTccTIBKWNZQKyQGsAU5kQuVKTdn4FIX2Br3/li2w8fUR0cgH0AX5ZwCfLrG/k
+      uHr1NZaW17l24y0yiTDv/vQdfvEvfQdREMDosprrcuXSNKurq6QiCk82SlycnaSwXSOTStGo
+      bRObmKNfyyPHprh+ZYGHd++gSQHSsRDpeJhaz6BS2OLiG18ku/KEuZkUppxmWNuiY8hEwgpX
+      L19GEASeLd4nEAyjJGfo17fR+y00KcxbN66xvrbK5Uvz3Ll9l4mF1zEGLQQgkwizuLzJW1/6
+      CkuLD5mbiKKHptHaFQQgEfbT1Q0+fvefMfWNv8qXZiTuPlgkt93m2nySIQEuTcdZzVe5tDDL
+      5sYWb7z9NsuLj5mZyRCOxll++pRLr79BtzMAS0XTVKaSYVT/BElfnwdPt0glY4iSH0mw8SuQ
+      mpinXtxgo9hkYTpGudJk9tLrFNeekpmawqcobG1scu36GzQ6OhIDUkGZR6sF3rh2mZWlVaKp
+      NG9eu8KTj28zOTNHsWUSE1VSEymerBZIRwPEwgpSdIowXT5eKpGI+UkFJXQlyuqzZ1y+/oWT
+      NwBVVfH7/Uf+1q5vk620efPaVQThJJ8KYJPN5pifn0dwEd6s1wgn0sjH7P9s26bd7hCPx47F
+      1TRtbB181mCofZY3i1x/fWRotmVSb7RJp5OfWKbTO/BZw4kbQLvdJhZzf1GcYdHtDolEQo4s
+      daiiBPw4ve69TgvdlkjEIp9Sp+PBsix6vR7RaPRMnmdoKs1On1g0jKIoYFsMNZOAXz6T5x+F
+      k3kHTgbqoEej1SGWSBEKKId+P/FJ8EmgXy9z+2mBv/TNL1PY2sASZUxbZH4ywWahwsLsFM1m
+      E1uUmZRirG3mmJnKkC9sc+nSHMVimVAszWQqyJMnK8xfukhf0MmVm1yYm6KQz+NT/PgCYcKS
+      Sb1nMDcRY32ryGtXLqP4pFddBceEzZMnj5meXWBjcx0JkfkL83T7Go1qCw2FdESmUO1w9fKl
+      0QT+nCGXL5BMpREFyG6sEokn8QVi2Hoftdf+bBrA+lYWSe9RrrUZmCLDZp1YJMrikycIpsGq
+      oeMPxNEGNdR2jdmFK/QbJbRemaVlg2ByinajwmTqMjNTCQqFMlYmTKu4xpogkAzHKdebRHWN
+      pqqRCUtslEzUToWVQpI3L2RedRUcEzY+JcjERIZWo8rcZIR8ucFQ10HXCUg6LVOgVVyjNDHP
+      bOwz2dynCtvUKJVKxIMB7HCKgNkm11IwGgVk0fzsGYBt24QTk7z51jQb2TLRSARFhIDiJy0n
+      6fR00vEYoWiCWmVAIuxnfW2NkF9A9ocQfTLRSAhDGAAmnc4QSRRQhyqBUBBF9hMKBYgbURTJ
+      AkOl0BiSSMhY/iA+6fPkGxTxSxZPni4TikQJBAL4hwaCKKCEAoiWyaDfIhCKIHE+I14UxY82
+      0PBHohSKOYJTKRq5VfxBP7auf1bnAIdhWRaieLIv52nJPI05wGno+rzp3RYNXhan8Q6cVvk/
+      N5+7brf7uZB5WjgNXVVVRdO0E5d7GjiN8huG8eoMoL5d4NHDB5Rq7ROUanD/gw9pDE62UW3b
+      5um99yi21BOTqQ+7PF5c5OnKxonJBCjlVnnybOtEZQKsPLpNtnJybWXpAx4vLvL42eqJyQSo
+      FLd49OT4Ml+ZASQzU4QDfnwnuuIiMT87hWla7tRjot9p0er0WZibwTBPbrTo84eZnkgiyye7
+      XDk1N4+w470+CQx6HeqtDvPzc5iG4f6HY0LwBZibzuA74fJnpmfxvcSo/pUZwPryE8RQgmjo
+      BB0mlkW726XT7Z3YlE9W/Pj9Eu12l26nMzbA7GUxaFfYKLWZyqRORuAO+t0O3V4X/YQ+Aj5Z
+      IeiX6bS7dLvdTxXguB/GoMnSZoWZyZNdcRv0unR7HTTjeB+BV2YAk9NzKKJ9ol9rbItgKkPo
+      BDsV2R8goMiI4QlSQU7MsJRglJmJOJo+Ptr1k0DTbObmJ7BO6E2VFT/BgIKtRMhEAydWflEO
+      MT+TRj3x8hvMzU8fu/wnvgrUbDZPfLYO0Ov1CIfDn3mZlmWhqirBYPBE5Z6GrpqmIQjCiQ/D
+      Pi9tZRjGyfsBRFE8NTf4acg9jeW60wqFOGldh8MhgiCcStzO56GtdF3//CyDevBwGvAMwMO5
+      hmcAHs41XnksUHMwwLT3VoLigSC+U5hEe/BwFF65Afz92x+y3dtzc/+tb32H2Vj8FWrk4TzB
+      +9R6ONd45T2Ah/ONXKvJWr22ez0bi3E1PXFmz/cM4HME9f3/Eau5F+imfPP3kFKvHeJppsE/
+      fbS3948kivzLb3/5THR8Waw3avy/zx7vXv/ChUueAXg4Gsbme1ilh7vX8pd+GzhsAKZlc7+4
+      tyGYLEqfWQN41fDmAB7ONTwD8HCu4RmAh3MNzwA8nGt4BuDhXMMzAA/nGp4BeDjX+AQGYLHy
+      +AFbhQYAveY29+8/IFeun7BqHjycPj6BI0xg4dIc+e3RDgG1SpsbX3qb7PI61kQCy7IwPsXu
+      AaZpHvn/cfc/DU5Dpm3bmJ0S2rN/snczlEG89htH8rdaTbLt5u71fCzBxXjiSF2lA8mrlnl0
+      XZvm4Xvj6lQQhGPXwe1CDnWf7J+bmSfgO/wKvUy9WtaLOeG2ZZ9p+7+8Adg27Vabdgc0LUYg
+      IJLP5jAlGVEUEUUR3xGVclxIknTk/8fd/zQ4DZmWZUG3hPrTP9i9J059gfCbv3Ukf6Ve489X
+      9w61+O7l17mSPrxTgiRJHNwGW5SOrmvpiDTvo3iGYSAIwrHr4Edry7SGw93rt6ZmiPgCR+p6
+      XJkH88cF8Wh9TqOtbNv+ZKEQgi/C9KSIZdlk5i7hazSIJ092ew8PHs4CL28AgkhmYvKFW6l0
+      +qT08eDhTOGtAnk41/AMwMO5hmcAHs41PAPwcK7hGYCHcw3PADyca3gpkZ9BqIbK0vaT3WtF
+      UpgJzr9CjX524RnAZxCNfo2/98Pv715nwhP8V7/2+69OoZ9heEMgD+caP5M9gGlZGPuCrERB
+      QJY+L4dfezhL/EwawJ18ln+6uLcvzldn5/ntL37lFWrk4bMKbwjk4VzDMwAP5xqeAXg41/AM
+      wMO5xicwAJtidoN8qYoNaMMOi48WqTQ6J66cBw+njZdeBbLULm3dh92rwlSaTq1ET4dQMIBt
+      29i2fSjP82Uw7v8vI/eoc18/rczjwrbtIxUY/xz7wNWoDo+Ue/jm2HId5/nPeZ+0Dk6krQ6q
+      ap9tW32CnGALSfJhSyI2kJq5QnJaZ/HJKl9489quEXwapca9AMeVe5B3EjKPiyNl2mNeYI64
+      b4M1zgAOUseW63hG8fzesevg2M//FG3l8AE4jbZ6aQMQAzFko4zlj9DvdjB1lVyxzPTcxd2k
+      eOlTOJ3G/f9l5IrCi9njgiB8apnHhWVZCOKB7HWBsc8RhANJ4YKAdMQZaaIoHkqKF8bV1RFf
+      ynHlH1c3Ryt7+P+fuq3EV9tWn2hblItXrr1wJ546uwMNPHg4SXirQB7ONTwD8HCu4RmAh3ON
+      UwmGM0sPsWqru9fi1BfAP83g7t29e+Ewoa997TQe78EDt/PZF66/Ojt/aHEETskA9Gd/gn73
+      D3evlW//uwiZ71L/n/6X3XvywoJnAB5ODf/k4f0Xrr8yMwdHGIA3BPJwruEZgIdzDc8APJxr
+      eAbg4VzjZzIl0sPnG6ZlslFf270WBZG0fDrRBp4BePjMoad1+Tt/8h/uXofkEH/wm//zqTzL
+      GwJ5ONfwDMDDuYZnAB7ONcYagGUaaJqOaZ1sEoIHD58ljDWA9//in3Hn4/ssLj498ItNrVyg
+      Um9jA7ZlsL62imqcbLqaBw9ngbEGEAqFeXL/DlLoxTNrLb1Pua1RKWXBtiltrhPNTLC2unHa
+      unrwcOIQ7DGJlrfe/SHZcp3Lb/0CX35jYfe+OWixUR1iq20uX7lKfnWFzGuXya1tcOXKa7Ra
+      LRSfhCSMkpht2wbJhyTJmJq2m9cpSRL4fGg7hx+Looht24iCwA9X/oT/89E/3n3mr1z5df6F
+      6V8g8Ee/u6dgMIn4r/7ftH7/DzCXV3Zvx/7238J34zrWviRqSRSxsfi3/6+/scsTEfmvv/vf
+      E7/7B5irP9qrkF/+O+jdSbr7AvcCX/oiod/7m/y3H/4UzTR37/97P/9t/ujJP+Inqz/Yvfcv
+      vfk7/OL8dwgqEoIoIAij42SRZJr/6X+GVa3ucpP/xfcRp6fR9x0ALft82LaFbmgjPSUJ27YZ
+      dAckoqHRIdg2IAhIsp/uD3/E4B/vHcod/OVfIvg7v41hWbt1ats2PlHkf735P3C/cGeX+7tf
+      /Df4mtlHfOe/3KvXX/jbWPLbtH//v9u9pbx+leh/8O+j75RdlERsy0YSBP746f/Bnz79o13u
+      b1z7F/lu4jqBP/239mTG5hD/6v9O8+/+PazsXpRm/D/5j/Fdfg3DNHffC58kIQig6eroWaII
+      CPQ6PeI3/y7m5gd7bfVr/w1aUaL3D/63vbb6xjcI/Y2/jrGTmiogjFIfRZE/vPf3+WDzp7vc
+      337rd8f7ASam5vAFoww6TWDPAKRAFLufx5LD9Lsd0lMTLC8uMr1weTdvMxyNHS00GDx86wia
+      IAropr73TJ+ELMtgqnscSyccDtO1wdD3uIosEwyFDsnUTO0FmQIC4XAYwTZekOtXZERFobNP
+      pm0YhMPhQ5vuBoNBbKwX5MqKjD8QIByNHtKhZZrY++T6FT/yEXUyQvjFOrEEAuHD9aorMv19
+      MkXLIhwOH+IBGLbxgq6KX8GnDrAOlN+SlRf0tA2D0BF1OlKMF2T6FB8+n/RiW9mj+mtbFuYL
+      5Zfxjyl/KHjgeRZg6i/IDfhlBNlHd59MwTLHlt+0zRfLr8hHG4BlmfhDYaKCwhsLFw8UWOTq
+      G2++cOuLX3xxmOTBw+cFRxrA8qM7/Ogv3qNca/Hd3/odvvPV62etlwcPZ4IjDeCNL36DUq3J
+      dVMj4HkKPPwM48jXezjoc+Otr5BKpJibmz1rnTx4ODMc2QNs59Z4uLSJKPlIzhtHUTx4+JnA
+      kT2AovgRhdHWcfuX6Dx4+FnDkT1AJDnJd3/1En5FPmt9PHg4UxxtALH4WevhwcMrgbfG4+Fc
+      wzMAD+cangF4ONf4TOYEvzXzJWRJ2b1+LX0FQYri/6X/aI/kG8WQRH/91wh+7ed2b8uzM0fK
+      lASJv/a1vWA44eBm9x7OJT6TBnAl8zpXMq+/cK/dbqN89XcPcUPf/OaxZEqixG+8+VuHZHo4
+      3/CGQB7ONTwD8HCu4RmAh3ONT2QAnVaddncAgGloZLe2aHX7J6qYBw9ngZc2ANsYsJGvsLmx
+      im3btCpZGn0TRfbCJjx8/vBSq0DdZpVGs0UolsIeNrGBaGqWSWqsrW1x443XsCwL4xQC6EzT
+      PHG5pmniO5ASbVkWlvniDhe2bWMYxqHzr/fnsu7//zhd7QMSTMtEOGaZxsk8eHi0taPrUfjr
+      X/s3+Ve+vLeSFpTCWBvvHKH/gR0+HGTaB55vW0ccaL37/wPlN4//rpimSfC7/zk+Y7AnNjyJ
+      mb37As+2HHQ9oq1eygAiiQyReJKnjx9j+UL0ux0MTaVWbxJJTu6eE+zznfzqqiRJJy5XkiSE
+      A6eGiKKIKB0+u9fn8x3yHPjG/H+crgd9D5J4/DKNkykeOFNY3NH1KEzEJl+4Hg6HmKLI/tdV
+      FEU4UH4cZAoHni+IwiGd9v5/oPzS8d8VSZKQY4dzUzTxxbODBdFB1yPa6uXfKEHi+hfefuFW
+      Iu2dE+xhD1LqMpF/596rVuMQvjT3VWKBvY0F5hMXPpuOMA+fcwgCgvTZmxN++/Iv8e3Lv7R7
+      reu6twzq4XzD6wE8nBmUixcQ9q0WCoFxeyKdHTwD8HBmSP/e33zVKhyCNwTycK7hGYCHcw3P
+      ADyca3gG4OFcwzMAD+cangF4ONfwDMDDuYZnAB7ONTwD8HCu4RmAh3MNzwA8nGt4BuDhXOMT
+      GIDFyuP7bBYaAPQaZe7ff0C2VDth1Tx4OH28VDRov9uip8HCpQXy26O8y1q1w40vvU12eR1r
+      MvkznRP8rYVLLxyTKuycwXvw/+N0DXz3l7G6vT25weBL5cQexRUvXCD0V35z91q+cuWlZNrx
+      i4hf/df3dEpfAzHxgkxfJjNW5rXMdX7zxvd2r6+mr51aWx0l07TMF66dcoKPkvlSBuAPhJBk
+      i2Y1S7MFqholEBDJbm5hSsrPfE7wP3/9xeNhn/928P/jdE1973uH7r2MrkfJ9N24QfjGjU8k
+      0zAMhKkb+C98+dBvgb/2rx1LxlcvfJ2vXvj6C/fa7faptNVRMqWXyAk+CNu2X84AJJ+MJFnI
+      gQQLc6OXJDN3CaXVIhr3zgr2cPaQMmmCP/+N3Wvl6tWX+v8nSIoXSaUzL9xKJJMvLcaDh5NA
+      4MYNAp+wBwRvFcjDOYdnAB7ONTwD8HCu4RmAh3MNzwA8nGt4BuDhXMMzAA/nGp4BeDjX8AzA
+      w7mGZwAezjU8A/BwruEZgIdzDc8APJxreAbg4VzDMwAP5xqfwABs6tsF6u3RcZXasMPiw0Uq
+      jc4Jq+bBw+njE+St2RjGkG69SyoWpFMr0zMhGPBj7+TIHjon9gRwGnJt28ZWohBM7d0TFZB8
+      CLG90wSFUGjsswO+IDF/fPdakZRT0/U0ZMLhs4ZPQu7nRaZgH8zqdkC3WaWlCmSikN+2uHxp
+      YqSUpbP4dJ0vvHmNdrtNNBo9UUUBOp3Oics9DZm2bdPr9YhEIicq9zR0VVUVQRBQFOVE5X5e
+      2sowjE9wULZlsLT0lK4q0W4rYOrkCmVm5i/uJsVLkuQu7CVxGnJPQ6ZlWZ8bXUVRRBCEz42u
+      p9FWLz8EEn1cu/7WC7feTGbGkD14+GzDWwXycK7hGYCHc40T38HKsiza7fah+7ZtH9pE6rj3
+      AHq93qF74/4PhzesOoo7TuZx/3/UPcuyUFX10I5xL1PWs9JV0zQEQUBV1ROT6aTrZ638Lz0J
+      Pg5EUSS2bwnxaAUsdM3CJx/eme2gorqm41NGp4sflHskVx4VyUmubZk83/3wKJn7/29ZJpYF
+      kiQeS1fJJ9Hr9Q6tWIzT1e0FMA0DdnY/c9PVNHQQfYiC20tho2sGiqIgCAJ+v3+sTNu2MAwb
+      n+945ZdPuK0s08DaGai4ttUOVxKFY+mKcIZDoBcVslA148jGP3hP1dRDHEeucLjwB7mWZaDp
+      5iHOc95+rm0a6IZ5KroeJfMg19Q1zDHr3wd1NTUdc8xX9bi6HpSJbaKdUlsdetYRXMs0MMxj
+      lt8YcV9G15PfxPOYOK774SXcFC/FfRkcV+xp6PpSMjmNujq8AfCnl/ly5T9+uV7++WdqAI1q
+      mU5/ZHmpiemxPF0dUCxXAJD9ISIODpAXuAEnrk21XKKv6oDAxPQM6OOk2lRKRQaaAQhMTs+M
+      fb7a71CujraKD4RjhMNjqQz7HbZ3uMFwjPGlsijlC2imBYjMzM2OF3qQOx8cy+x1mtQao/lZ
+      JJZElsdLrW2X6A01ADKT48uvDXuUtkdb4yvBCE6+qv1cvyPXZrtYZKiP6n9qxqn8NtvFAkPd
+      HHFnx3MH3TaVehOAUCROIOCtAnk45zhTA0hmJvFh0u/1EaXxnY/sDzKVjtPv91/Yj38cd3KH
+      a5pOXaBAZmoaDJX+YODiVRz1EPYOV3Tg+kNRUrEQ/X4fy3LuggP7uI6qIjI1M4OhDhioGuKY
+      ucJ+rq4OGGjO3HA0QTSojHTFSSakJ6cQLZ1+v4/osN24EggzkYyOyuRSfiUQJnMs7qj+LX3I
+      YKgiik6vqcDE9CyWNuJKDtxgJEYiEnih/GfcA5jUW0OuXEiylXM+UaaUyzN7+XVa1W1XqaVc
+      nrnLr9N05Wq0ezYzST+lqlv0qkanZzOd8FOudR2ZuVyJq9euUS0XXHXN5kq8/sY1qqW8I09X
+      O+hCmLCg01bHjtVG3EELU4wQtDW6qvPhEIVylWvXrlLK5Vw0NWh2dC7ORMkVms4ycwUuXn2d
+      xnbJReaIe+nq69TduPaQ3lAkFRKp7UQej6VaA3qaRDIoUGsPHbm5wjbX3rjGdmFU/jM1gGaz
+      TTSksFEe8Pql8eETw06HQDxFeWuN2QuXHL9Vg06bYCJFyZVr02x2CSpQG0jMTzoFVu1x60OJ
+      uYnxgW3dZpPkZJq1lRUuvHbFQeaIm5pIs7q8wsXLTlyTTldHMvuYwTiJgMNgHZNO30A0ehBK
+      EPOP/1q3m01SqTgrK+tcft15H/1ms0044CNfN7m8MP7sh36zRSSdJre+yvyl1xxl9ppNopkM
+      WVeuRavVwy9Z9OwAU4nx85oRt49fNOkTZDIeGMvsNJukMklWlle4dGVU/jM1gHa9xNLqFvqw
+      vzsZPgoCBh/fe8BA02k2W45zexGDj+9+vMNtOnLr21usbZYZ9rr0Xb6UtfLmLnfgxDWH3Lv7
+      CMMwaLYOOwD3wzaH3Lu3w206cQWKW0vkSg16rRaay3ChsLlEvtyk22o7cvVhl48fPsUwdFou
+      ujareVbW82iDHt2B5vB0jft3H6LqBs1my1GmiMb9Ox+PuI7PF6gU19nIVuh32jsT3PGoFNfY
+      yFXodzqOXEvvc//B4xfa6qXCoY+Ddrt9pCNsBBtdN3aPsBm3Dg5g6DrSPp6T3IPc8bDQdQuf
+      TwIEOh0nXV/kOonVdX23TM/DoceF7u7nOun63FknSaKrrge5x9X1eTj0fkfYPqnouvnS5Xdr
+      q2OX37YwjOO11UHucXU1DAPp+9///vfH018eqqqOqVAAm6eP7tLpDOioPhLR8d1Vo5zn4XIW
+      bdgjkUyiOcitl/Msruxxx5ff5N7776PaFjp+ZNFy0NXk7nvvo2JhCAHCDsOQUm6TtWyZQa9L
+      IpFA1/WxcovZDTbyZfq9LkmHk3UsY8iHP3ofMyChBMLY5niZpj7kwx9/gOkX8fZ1Jz0AABi+
+      SURBVAcjKNL4jj27sUSh1KLb7RKNRnbPPztCAx7duUlf0+gbCrHw+JyBajHL0/UC6qBHMpl0
+      fAcqhSxL6wWGO9zxMLj1k3fRfQJIQUTM8W1l69z8ybvosoDgCxJUxg8DC1trbBVq9Lod4vHY
+      2S+DigJkswVkxSW2WxTpd+p0+uO73+cQRJFeu06n7zxZBBAEm1y+tPO1cONa5PNlfA4v1PPn
+      t2plBrp7xpIoSbSqZYa6W8crIAgmxVIVUXResRnBoFiuuawYjUJVqqU8xjGaXhAgmy0iy851
+      JYgi3WaV3tC9/kVRpNOs0nMZgo4EW+QL2671P9LVolDc3ukFnXVtbBdQzVE9nbEnWCAcTTEl
+      64QDzo/2BwLMTE/hD40bouxBec4Nu2UMiSQnpwhZAgFZxHS0LZHU1BSqJeJXnCs1EAwwPT1F
+      KOaesRQIBJianiLswhVEH5MX5zBsH5Io4PS6iKKPqX1c5+eHmZqdJBZ1y1gTiaUyyBGLkN+5
+      /P5AkOnpKYIR97by79RV0DW7SyIzN4Nu+5B9ArpTBQgSmflZdFtC9rmUPxhiamaKSGxU/jPt
+      AYaDLrVmn7m5OUIOQwrLNCjk8sQnZpjMOB/AZ5k6xWyexOQMk2knrs2g36bVM5ibncXv+FWz
+      GfRatHrmiOvQWxi6Ri5bZGp2jnTC+QUwdI1srsj07BwpR65Np1llaMjMzU7jc3ypR1zVVJib
+      nXY0AF1TKZQqzM7OkYg5uKyBQb9No60yNzdHwGFIYRo6+Vye9NQMmZTzSaGmoZPPFshMu3Ft
+      +r0G3T7Mzc6g+JxeU5t+t0F3sMN16AEMXSWXLzEzO0cqPjLAMzUAdTAkHo/SaTfpOgxtLNNA
+      CcUwh13qDeeVBcs0UcIxjEGXussqxKA3JB6P0Go2dsIcHLj9Pe7QgWsZOtF4gl6nQ7Pl7Fsw
+      DZ1YPEG306F5RMj4HmxUzSQaVmjU62ODwZ5zh5pFJCSPuA6rQIamEo/H6XQ6tNrOvo3h87Zq
+      NegPHcpv6gQjcdR+l0bLpa0MnWA0zrDXdV0xGvRV4okwzUYd1WVoOehrxOOhEdcYzzV0bbf8
+      zfaorc7UACTJYn11i26nTsPBYeFTZIob67R6Pba3K44yfYpMcf05t+rAFBBFjfXVPK1Gha7j
+      fEFAFPZxB+O5Pr/M5uoa3V6PSsXZuScrx+WKmGqHrdw21e1tx0YdcVtk89tUy9toDlyf7GN9
+      dZ1er0u11nDUVRIN1leztFtVWt3xS9ayXyG/tkbHtf5BDijkVne4juUXEBmwtlagUau4LFkL
+      CHaf9fUi9WrFcclaVmQ2Vtfp9XpUKvXRv89yGdS2DNrtPpFoZCche5wUm06zTSAaQRJFRMel
+      tT2uTzwcs74flqXTaatEYiEkUXTU1bI0Om1tlztWU9um3WrvlslpGfQg13EZWBsw0CAc8iO6
+      6HqQezxdJVR1OHYZdNRWAyLRsMvE0qbdbBPaaSvnZdDD3HGwLI1ORycSDbq3lanS6Rq73OOV
+      X8QwjrMUcIIQRIlGNUepkKfacnJvCwjoPFtap1wquwS5CghoLC1vUHLhiqKPUnaFcrlEq+e8
+      YiGKMsWtHa5DbyEIAqbeZ3UjS6lUdtZUEDC1PmsbOVeuKPlYf/yYUq3C0LEHGK0srT95QrFW
+      cewtBEFAHbTYzBYpl53DRgRRolrcoFwqUGuP7wFAAEtleXXTtUwgYJvDY3EFwUd+9RnlSpmu
+      wxBspKtMbuUZ5cq24+qSIAjoapf1rfzu8894GdSi3WqS3crSdonvaDea1OtVSmXnIdCI26Je
+      qxyDq1PfrpPN5egNnBr1ObdGNpen7+AJBWg2O9TLxd1QZ0duq02tXHDlmvqAWrlGLl9EM5w9
+      oaY2oFaukss9D4sej1a7xXY+T9VlbgUGzXqDbDZHt+ccX9NqtKhXypS3nYeAAK1mm3q1TNll
+      uIitUd0p09AlFsq21FH583nH+RqM6r9aLFCpjeKbztgTbFGr1hFFkJQIsch4R1i31UKzLUzD
+      JpNJ0XGQ22210CwL07LJpFMOjjCD6nYTQbQJhBOY+sBBV4NKuYko2QQjCcdVq3ariWnZWLZA
+      MhFz9AS3W01M08ZCIO2wEmIaKo1GF8s2SaQyDPvdsbruci2TRCbjuBLSatQx7dEyazBwOCVy
+      n1SqlQaiBLI/SjQ8zmEInVYT3bKxLMikk47vQKfVxLBszB3uONi2TnW7hSDahONJ9GHfwRO8
+      x43Ek46rVq1mA8sCWxCIRsJn2wN0mtvcufOQUjHn4rQyeXDrFvliaTfZxZF78xb5Uoli2XkS
+      1qjmuHvvMYVCnoHm/FVtVLLcu/+EQt6Za5katz+8SalUolytO8rc5ZZLrj1AObvCo8cr5LN5
+      dJeQ8OLmMo+erJLP5R1XgXS1x62btymXy1Trzj1Aq17k7t1FSoUcPcchiMG9j25RKJV2k12c
+      uHc/3OG69AD18ib3Hzwjn8+5rgJVSxs8+PgZ+VzOcQho6kNuf3RrVP87PcCZGkA0McmlhTSG
+      LhAIOkU4Stx46zqmYRIKju8lnnOvv30d6xjcZGaB2YkwguDD7xA1CZCcWGAmE0KQZBSHL4oo
+      Kdx48xqmZREMjP9KPudev3E87tT8ZeJBCSUccvWEzixcJh4QkUMhR5+B7A/zxrXXsCyLgMvz
+      46kZFmbiWJbo0lY+brz1BpZpEQw6y3zONU2LkMvzU1MXmUwqSLIfxcUTnZm6xERCQfIHkB18
+      NpIc4Pr1q1iWRXCn1zvzOYCum9jmkJpLPH6308OybLod912ne50epmXT7ThHOIKBNtDQDZWm
+      yxwETLSBiq6rtDrO3E5vCKZJx2UdHKDTH4Jl0G47x9ibhooxGNLrD119FqauYgxV+oMhA5fI
+      yd5QwzIM2k3n54OFpuqYpkqtdnhLkv3odAdYlknX0bcxQrc7wLZMOm5c20Drq6ia6hg5DKMh
+      kNZXGapDx8hVgE5fxTZN2q1XNAeo19v4JAhF445fq06zgS8QwDAhGg46jyt3uKYJkbBT7LhB
+      vd5DEm2i8TjdTsdxDrCf6xRj06g3CAYVLHwE/LLjHGA/N+TwxTQNlW5Px7ZN4vEYHQddTX1I
+      d2BgWyOu0/Jio14n4FcQfH6wTcc5QL3ewSdCOBZ39DC3Gg2UgB/TFomEAo5t9Zxr2SLh0Pge
+      27Z1mo0+ogjReMyxrWxLp9kaIAg2sXjMpa3qo53MRRmfJJx9MNzS4n3yxTI9F6sedKrce/CE
+      Wt05xh+g365y7+MnVI/BXbx/h2J52znGfweP7t8ecV2+wO1KlodPV6k7xviP0Nre4tHTNeou
+      8fjYJvfu3KZcrrjkA4Btm9y7PeLqLtxydpVna5s0O86eYICnD++RL2/THzp/VXvNEg8Wl1y9
+      9gDdRpGPF5eoHYP78b1R/asuvRrYfHz3NuXyNqrLilm9uMni8jqNHa/9mecD2PbeJkXO8eD2
+      3mZGguC4CnSQ65QVZlujTTYEQXD8qh7kHldXt3yA/dzjyOQYuh7kHldXt3yAEfflZLrlA3yW
+      yv9K8gGWHt+n1xvQN2RiDktrzUqBJ6t5dHVIPBF3zAdoVgo8XS2gqwPiibiDAVh8fPMmmm1j
+      CAEkwSHGHIsHH91Ew8YUAoQcJs3l/BabhQrDfp94POaYD1DOb7FVqDLo90gk4kdyYOTdvP3O
+      R1hBH4o/jGWMl2kZQ26/ewvTL+EPRpAdJs35zRWKlQ6Dfo9wOOSQD2Dz+P4dhprO0PITCY2f
+      CNfKOZY3SmjDAYlE3PEdqJVyrGyVUYd9x/KDyb33PsTwCeALIdiGQz6Ayd33PsCQRQRfkIDD
+      pLmYXSdXbjDodYlGo2c9BLLR1CGrq5uuOwjomk69WqJ6jKOXRtwi1aYb12LQ77G+kT3GxkwW
+      g95zrsvzDZ3tfJZW19lhBKDpOtv5LVouziXbMun3OmxmC64bQ9mWSb/bZitbdN0bSjc0Cpvr
+      rt5VsFAHfdbWt7BcKkDXDGrbBeot58kyjMpfLedptN24Fv1eh42t/DHaymTQ7bKxmT9GWxmU
+      sxu7eSZn3AMIBENxoiE/yYmMY5irKElMZiZQQiFikbBjD/Cc6w+FiEbCDj2ASCyVJiD7SGUy
+      mIbmoKtIPJ3C75NJT6QdJ+yi6GNqMk0gHCUcDDj2AII04gbDUSKh8RN2QRBJz04jWjCRTqFr
+      DroKIpnZaURbIJNOOk4CJV+ATDpOOBZH2dmb9egeQCAcSxD2y6QmMo69iihJTE5k8IcjRMMh
+      x3dAFCUmJ9L4QyPueIgkJzMookR6Io2hO7dVcjKDLEpkMinHCbsoyUxOpAhGYgT9ytlvi7L6
+      7CkDrUcu5+w0qhZyLOeKtOvOzi2ASn7EbdXcuBpP7j+grw3YdtnqBDSe3HtAXxuy7bIMWMxn
+      yZZq7lt9AKXcFrlSjZoLV1e7PL5zl95Qp+2SaWWoHR7fvUd3oNJxmbDnN9cp19tUikUXTQ2W
+      FhcZ6AMKRecJ63Y+x1qhfIxtaaBcyLFe2Hbn2kMW79yjp6rUW2695YjbV1XqHWduIbtJYbtB
+      tTwq/xkbgEQ8HkZTYWLSOXkkNTmBbFsoAaevxAjpyQwy9jG4CvFUDMuEpONWGyNuLBXHNiER
+      d+ZOpJPYlnWsjKiJTBLbdufK/gjBaAxZgpCDI26PG0XxCYRcnEapVBzLMokknBONwEc8EUVX
+      IeOwLQxAZiKNZFv4Q+7nomUyaUTbducKfmKpOCIQizg7zQQxQDQ54kZDztyJdALbtghHR2Eo
+      Z94DdPsDJMGiWnEer1dKFSzRhzbsu0rdLlWwRekYXJV2vYsoQtPlqzLidhBEm5aL06xcbeIT
+      BQZd9/lKqdrCJ7hz9WGbfqODKQiuzi1t2Kbf7GKAK7fW7CAh0G25Be7pdNo9fJLt6ggrl2sI
+      goTad19a3d6uIYqiO9ce0q52sAXo9FwcYdaATq2DJQqujrByrY0PgX5n1Kud8RxAJBqLo+k6
+      cwuz+KTxY7VIPEZQFvEFI8QizuPKaDxGwCciB6PEIk69gI9EOomqGszOTrqMK30k0wk01WB2
+      ZtJxXBmNRZFFm2AsRSjod5wDxPZxnRxBos9PciKJrhlMZZJoDnMASQ6QyCQxdJOpTNJxGTAa
+      jSEKBrHUFPLOnv9HzwEkYokEqqoztzDjOAeKxmMoPgElHCcaDrq2lSIJ+MMJF6elj+RECk3X
+      mZmacJkDySOuZjA9mXGcA8ViUSTRIhSfIOD3nX0P8GzxHpqqs+UyB9jObvJso0S3UXN1bpWz
+      myxtlug0qi5cjXsf3sS0DdftDkHj7vs3MTHYrjt/AXMba2RLDRoV9zlAdv14XEPt8tGPP8IU
+      TdouKzbGsMPNn9zEFAzXrRE315+xXR1QKblt42iwePcOpqWTLzqHTRS31lnLVWjX3EPXC5vr
+      rOcqtGru21jefudDLEz3rRFtlVs73IbLHGBrfZVCpUN9e1T+MzYAkWQqRaXWJDPhvCtALJVC
+      NIcguwXDjbiCMURw5frITCap1dskYm5zAB+ZqSS1eodEzCXILp1C67eRg+67QqSec0POXEkO
+      kpmK02wNCLlsISPJQdKTMVrtIUGXOUAylaLXqROMOSewg0RqIkml2iKdch6vx1MpLK2H6Hef
+      ryXSI67kypXJTCeoN3rEXMb1giAzMZ2g3uwSCTmfeZxMpxh2m/gjIx/EGZ8PsI2oRJlfiKI4
+      DH90dUC93Wd2dgbZpaJ0dUDjOddxEmxTLZcJJScIISCJMD5w1qZSKhFOTRJGwEFV1H6Hbl9j
+      Zm6OgOOy3uh8gO5gxA06ci22S2WSs7OA6LKPs8V2eZvUDteJ3Os0GWowOz9LxCVytrZdRgkn
+      mQ2D7PCZ1IY9Wt0hs7OzKEHnnSaec2dmZ/E7ckf1H5ucIYaA804vx+cOum36Q4OZuVlCO0vQ
+      Z9oDNOp1Oq06ocQkkeB4S7XUPvVmm97QYGYq4/gCmGqPerNDTzWZmXTm1mtVGvU6qckZx93D
+      RrrWaNQbpKdmHBMstF6bRruHagpMpp2/qlqvTbMz4k64cGu1KpVKg7mFOcc1eIBatUql2mDu
+      wjyyQ05sv92k3elgSQFSCeceqFGv0WrUiaWnHZOBzEGHWqvLQLOYnkg5yjT6HWqtHgPdZsqF
+      W69VqdUaTLpuYTOqq1qtwdTsnOMWNsNei1ani277yKRGPcCZGkC308Pvl1h5/IyuQzBct9lG
+      8geolQvkSxXHcX230cYX8FMr5Sk4cm263QE+22B5ZdUlwG3ElSyN5ZU1R26r1sYfCVLObe6e
+      FDOe28IfPg5Xp9/Vod9haTPrkuao0+sZ0OuwtLHlmDzTanQIhAPk1lZ3T4oZh263h+KzWX62
+      7LjjW6vawh8JUinmKLokxLSqTQLRIJVC1oVr0uuqiNqApdUNl2A4g15XQ1QHLK1tOAbDtWpt
+      /OEgxa31V5MSqWt7B775ZGVsoodlmWjaqNIFUURRlLHBcEdxj+4FbDRV23Xry4qfXndcgNVh
+      7rhVIMs00Ha2LRMlCZ909CmRR3GVsWcU2TtHrY6uFL/fIRz4MHfcKohp6Og7L4gk+TBNY2ww
+      nK6pu+EqsqKM3W3BMk00/Xn9S/gVeew7cBR3XPn317+i+Okes60cy28a6Lv170PAPts5gKwo
+      jIps0u/r+MZMbkRRIhAYdWX9fh+U8cOl43MFlJ2Gtgxt90V045qGhq4bSP6jG0uUfAR2Trvp
+      9/v4HE6TOcgdbwACfv9ojK4Ph66nqRzkimMmLZJPRvLJgE2/P3DcQkVW/MiMtkcZqgbBMUNW
+      UZIISPvrf/xw6fjcvfo3dBXddOoB9nE1Fd2wxg6ZJMmHtK/+ZVk+671BbbrtNoZlIkrOkzBd
+      HdIbDDFMi0DQecXmIHf8OrhFu9nGtEzkgJvXco+rBJ256rDPYKhhWvbuyziWO+gzUDVMC4IO
+      utqWSbvdwTAMwjGnqMmD3ITjnGHQ76JqBjaCS1qmTac1aiuf4lz/2nBAfzjqMdza6iB33Nfa
+      ti3arTamaRJw2fP1ENdhzjAc9BiqOpYNsiyfvR9gZWmVXrPMrZv3aDpsj1jYWKPVH7K2ssyT
+      pyuOUgsbq8fk6iwvrdPYzvPRB3dx9i+OuPUdrpN/cWN1lcFwyMqzRZZWs45S159znz5kaW38
+      MUm62mZ9o0Axu8ndew8dN8fVBi3WN4sUtja5d9+Zu7aywnDQ59mju6xuOcVO6SwvrdGpF/no
+      g3v0HMbh2fVVuoMhq0tPeba07iBzP/cJz5Y3xhPtIStLG1SLWW7duj/+QE9GnuCV5U0qhSy3
+      bz9w5K6trDIcDll6/IDl9dJZ9wAS0ViQTt/k0msLjtt3pCYybJXrxDNTRF2SrUfcBonMFBFH
+      rkwkIjM04eKlOZfCy0QiPlRT4MKlOZzWITLpJNutFumpOYJB56XQTDpBpdUiMz1PyMET6lMi
+      KD4LkwBzmYTjl0oORFCkAqYUZG4i7shNJ+M0222m5y+4+E1kolGFnmpx6fI8ssP6YiaTJl9r
+      kpyYIewQ4QqQzqQp1JokJ2eJONWVECAcktARWVhIO9a/IAYIBUUMRBbmnbmZdIJ6q8Xk7AKy
+      P3D2QyDZp2CLMDUz7ZhkIogiPlEkEg4zMz3hnEQtSPhEkXAkwszU+LPHnj9fknzMLcyiO8YO
+      2cg+P5IkMz8/61ipouRDEkSisQQTqTi93njPseQbcSOxBFOOO19bKLKMIAeYnZ1h0BvvubZt
+      e5c7MzfjaACST0YUDaKJScdDP8BC9ikIgsisy67LgiQhiSKRaJSZyTRth7YSxB1uZMR1fL6s
+      IPsU5uZmUQdO3vgRV5D9zM7POpdf8iGKItF4mkQ09ArOCRZGE0vnHY93iNioqvsBGaNNRker
+      Icd5vqFprgk5z2FoKqbbQpkwGoeq2jF0RcC2rd2VK0ehgKaqrqEggjDKg9H2rQY5wbYsVNfn
+      s1NXuuNeQ7tE+7htxYh7jLqyGa0cuiXkPK8rXVXducLz8o+ef6YGYFujrH3dcQUGwEb2B5EF
+      sF0PR7FR/EFkwcZ285laNvF4DMMwXZg73ER0tGzoUKe2bRMIRRDt0UnljpraNoFwBMEyXV9q
+      2xaIxcIYxnG4IvEdrtvzQ5Eotmm4lt+22KkrA+c0MxslGMKHday28gfDSFi41pUFief1fyxd
+      3bm2bRMMR8Eydp9/pgbw+P5tljaLSFKAhMO2iL3GNu+8+yGteo+ZC3OOVdVrlHnnvQ9pNQbM
+      XJh1TIi/f/MDspUKPins0v3b3PvofXLVGrILt1Ha5N0P79IfmMzMTjrIhEZxxB0MLWYduQYf
+      vftTar02shTD7+gJNvjop+9Q67VQ5LjjUKW4/oyb9x+jGgIzk86e2Id3PmKtsI0kBR1jcTqV
+      Au+8f4tOW2NmfsZRZruS5533b9HtaMzMTzswLe588B7FRh1Zirh47U1uf/Au5VYDWYoSlMdz
+      K7k1Prj1gKEKM9OjofL/D2nkz/g8ondcAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='240' name='Sheet 2' width='240'>
+      iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAC0UlEQVR4nO3TQQ0AIBDAMMC/58MDH7KkVbDP9szMApLO7wDgnYEhzMAQZmAIMzCEGRjC
+      DAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMAND
+      mIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZg
+      CDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIM
+      DGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OY
+      gSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAI
+      MzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwM
+      YQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iB
+      IczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgz
+      MIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxh
+      BoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEh
+      zMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMw
+      hBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEG
+      hjADQ5iBIczAEGZgCDMwhBkYwgwMYRfMRAXcQni19AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

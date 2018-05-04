@@ -1,0 +1,838 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-4655-9">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>CHI '17</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-1-4503-4655-9</dc:identifier>
+                <dc:identifier>DOI 10.1145/3025453.3025694</dc:identifier>
+                <dc:title>Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bopp</foaf:surname>
+                        <foaf:givenname>Chris</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harmon</foaf:surname>
+                        <foaf:givenname>Ellie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Voida</foaf:surname>
+                        <foaf:givenname>Amy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>accountability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>metrics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>mission-driven</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>monitoring and evaluation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>nonprofit organization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>social enterprise</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://doi.acm.org/10.1145/3025453.3025694</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>3608–3619</bib:pages>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2018-05-02 22:37:24</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <dcterms:abstract>Organizations across many sectors are under intense pressure to become data-driven. Yet, for mission-driven organizations, the path to becoming and value of being data-driven is not always clear. We present results from an interview-based study of the role of data in the monitoring and evaluation practices of mission-driven organizations. Instead of leading to productive and empowering data-driven decision making, monitoring and evaluation work is characterized by the erosion of autonomy, data drift, and data fragmentation. Together, these consequences of monitoring and evaluation practices play into a cycle of increasing disempowerment for the mission-driven organization. These findings suggest that the design of information systems should work towards empowering organizations in ways that make sense for their unique data needs and those of their constituents.</dcterms:abstract>
+        <dc:title>Disempowered by Data: Nonprofits, Social Enterprises, and the Consequences of Data-Driven Work</dc:title>
+        <z:shortTitle>Disempowered by Data</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5/Bopp et al. - 2017 - Disempowered by Data Nonprofits, Social Enterpris.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dl.acm.org/ft_gateway.cfm?id=3025694&amp;type=pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-02 22:37:25</dcterms:dateSubmitted>
+        <dc:title>ACM Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1177/1098214015623634">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1098-2140"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maxwell</foaf:surname>
+                        <foaf:givenname>Nan L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rotz</foaf:surname>
+                        <foaf:givenname>Dana</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garcia</foaf:surname>
+                        <foaf:givenname>Christina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1177/1098214015623634</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>463-485</bib:pages>
+        <dc:date>December 1, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-05-02 22:44:19</dcterms:dateSubmitted>
+        <z:libraryCatalog>SAGE Journals</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>This study examines the perceptions of data-driven decision making (DDDM) activities and culture in organizations driven by a social mission. Analysis of survey information from multiple stakeholders in each of eight social enterprises highlights the wide divergence in views of DDDM. Within an organization, managerial and nonmanagerial staff working for the organization and staff from a prominent funder all expressed different perceptions of the same organization’s DDDM activities and culture. Study findings also provide insights into how to improve an organization’s capacity to build and use performance management systems, which include building a common understanding about what activities are—or are not—being undertaken. Finally, findings provide insights about structuring research on DDDM, which indicate that information from only one respondent in an organization or only one organization might not be reliable or generalizable.</dcterms:abstract>
+        <dc:title>Data and Decision Making: Same Organization, Different Perceptions; Different Organizations, Different Perceptions</dc:title>
+        <z:shortTitle>Data and Decision Making</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1098-2140">
+        <prism:volume>37</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>American Journal of Evaluation</dc:title>
+        <dc:identifier>ISSN 1098-2140</dc:identifier>
+        <dcterms:alternative>American Journal of Evaluation</dcterms:alternative>
+        <dc:identifier>DOI 10.1177/1098214015623634</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_7">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/7/Maxwell et al. - 2016 - Data and Decision Making Same Organization, Diffe.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journals.sagepub.com/doi/pdf/10.1177/1098214015623634</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-02 22:44:19</dcterms:dateSubmitted>
+        <dc:title>SAGE PDF Full Text</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Part>
+                <dc:title>Sunday Review</dc:title>
+                <dcterms:isPartOf rdf:resource="urn:issn:0362-4331"/>
+            </bib:Part>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lohr</foaf:surname>
+                        <foaf:givenname>Steve</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers and the Internet</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Forecasts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Statistics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2012-02-11</dc:date>
+        <dcterms:dateSubmitted>2018-05-03 16:38:44</dcterms:dateSubmitted>
+        <z:libraryCatalog>NYTimes.com</z:libraryCatalog>
+        <z:language>en-US</z:language>
+        <dcterms:abstract>For those who can make sense of the explosion of data, there are job opportunities in fields as diverse as crime, retail and dating.</dcterms:abstract>
+        <dc:title>Opinion | Big Data’s Impact in the World</dc:title>
+    </bib:Article>
+    <bib:Newspaper rdf:about="urn:issn:0362-4331">
+        <dc:title>The New York Times</dc:title>
+        <dc:identifier>ISSN 0362-4331</dc:identifier>
+    </bib:Newspaper>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/big-datas-impact-in-the-world.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 16:39:08</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.tableau.com/about/blog/2016/1/how-visualize-sentiment-and-inclination-48534">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Tableau Software</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wexler</foaf:surname>
+                        <foaf:givenname>Steve</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tableau.com/about/blog/2016/1/how-visualize-sentiment-and-inclination-48534</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:27:18</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Note: The following is a guest post by Tableau Zen Master Steve Wexler. I spend a lot of time with survey data. Much of this data revolves around gauging people’s sentiments and tendencies using either a Likert Scale or a Net Promoter Score (NPS) type of thing. Here’s an example of gauging sentiment using a five-point Likert scale. Indicate how satisfied you are with the following:</dcterms:abstract>
+        <dc:title>How to Visualize Sentiment and Inclination</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/how-visualize-sentiment-and-inclination-48534.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tableau.com/about/blog/2016/1/how-visualize-sentiment-and-inclination-48534</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:27:35</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.datarevelations.com/likert-vs-likert-on-a-scatterplot.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Data Revelations</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>swexler</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.datarevelations.com/likert-vs-likert-on-a-scatterplot.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2014-09-16T21:21:16+00:00</dc:date>
+        <dcterms:dateSubmitted>2018-05-03 17:27:24</dcterms:dateSubmitted>
+        <z:language>en-US</z:language>
+        <dcterms:abstract>Finally, a good use for packed bubbles! The Problem I recently received a query from a client on how to compare responses to one question with responses to another question when both questions have…</dcterms:abstract>
+        <dc:title>Likert vs. Likert on a Scatterplot</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/likert-vs-likert-on-a-scatterplot.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.datarevelations.com/likert-vs-likert-on-a-scatterplot.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:27:50</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.jstatsoft.org/article/view/v057i05">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.18637/jss.v057.i05</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heiberger</foaf:surname>
+                        <foaf:givenname>Richard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robbins</foaf:surname>
+                        <foaf:givenname>Naomi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_26"/>
+        <link:link rdf:resource="#item_16"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jstatsoft.org/article/view/v057i05</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:27:41</dcterms:dateSubmitted>
+        <z:libraryCatalog>www-jstatsoft-org.colorado.idm.oclc.org</z:libraryCatalog>
+        <z:language>en-US</z:language>
+        <dc:title>Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications | Heiberger | Journal of Statistical Software</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/Design of Diverging Stacked Bar Charts for Likert .pdf"/>
+        <dc:title>Design of Diverging Stacked Bar Charts for Likert .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/16/v057i05.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jstatsoft.org/article/view/v057i05</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:28:01</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_17">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1077-2626"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gratzl</foaf:surname>
+                        <foaf:givenname>S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lex</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gehlenborg</foaf:surname>
+                        <foaf:givenname>N.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pfister</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Streit</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_22"/>
+        <link:link rdf:resource="#item_19"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>attribute combination</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>bar charts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Graphics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>data visualisation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Decision Making</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Decision Support Techniques</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Encoding</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Histograms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Information Storage and Retrieval</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>interactive systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>interactive technique</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>item ranking</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>LineUp</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>multi-attribute</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>multi-faceted</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>multiattribute rankings</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>multiattribute visualization technique</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>multifactorial</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>multiple heterogeneous attributes</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Pattern Recognition, Automated</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ranking</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>ranking visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ranking visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Rankings</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reproducibility of Results</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Scalability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>scoring</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sensitivity and Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>slope graphs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>stacked bar charts</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>User-Computer Interface</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>visual analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>visual exploration tools</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <bib:pages>2277-2286</bib:pages>
+        <dc:date>December 2013</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dcterms:abstract>Rankings are a popular and universal approach to structuring otherwise unorganized collections of items by computing a rank for each item based on the value of one or more of its attributes. This allows us, for example, to prioritize tasks or to evaluate the performance of products relative to each other. While the visualization of a ranking itself is straightforward, its interpretation is not, because the rank of an item represents only a summary of a potentially complicated relationship between its attributes and those of the other items. It is also common that alternative rankings exist which need to be compared and analyzed to gain insight into how multiple heterogeneous attributes affect the rankings. Advanced visual exploration tools are needed to make this process efficient. In this paper we present a comprehensive analysis of requirements for the visualization of multi-attribute rankings. Based on these considerations, we propose LineUp - a novel and scalable visualization technique that uses bar charts. This interactive technique supports the ranking of items based on multiple heterogeneous attributes with different scales and semantics. It enables users to interactively combine attributes and flexibly refine parameters to explore the effect of changes in the attribute combination. This process can be employed to derive actionable insights as to which attributes of an item need to be modified in order for its rank to change. Additionally, through integration of slope graphs, LineUp can also be used to compare multiple alternative rankings on the same set of items, for example, over time or across different attribute combinations. We evaluate the effectiveness of the proposed multi-attribute visualization technique in a qualitative study. The study shows that users are able to successfully solve complex ranking tasks in a short period of time.</dcterms:abstract>
+        <dc:title>LineUp: Visual Analysis of Multi-Attribute Rankings</dc:title>
+        <z:shortTitle>LineUp</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1077-2626">
+        <prism:volume>19</prism:volume>
+        <prism:number>12</prism:number>
+        <dc:title>IEEE Transactions on Visualization and Computer Graphics</dc:title>
+        <dc:identifier>ISSN 1077-2626</dc:identifier>
+        <dc:identifier>DOI 10.1109/TVCG.2013.173</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/22/6634146.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6634146/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:29:33</dcterms:dateSubmitted>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/19/Gratzl et al. - 2013 - LineUp Visual Analysis of Multi-Attribute Ranking.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieeexplore.ieee.org/ielx7/2945/6634084/06634146.pdf?tp=&amp;arnumber=6634146&amp;isnumber=6634084</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:29:02</dcterms:dateSubmitted>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/article/10.1007/s10459-010-9222-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1382-4996,%201573-1677"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Norman</foaf:surname>
+                        <foaf:givenname>Geoff</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <link:link rdf:resource="#item_21"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/article/10.1007/s10459-010-9222-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>625-632</bib:pages>
+        <dc:date>2010/12/01</dc:date>
+        <dcterms:dateSubmitted>2018-05-03 17:29:02</dcterms:dateSubmitted>
+        <z:libraryCatalog>link-springer-com.colorado.idm.oclc.org</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Reviewers of research reports frequently criticize the choice of statistical methods. While some of these criticisms are well-founded, frequently the use of various parametric methods such as analysis of variance, regression, correlation are faulted because: (a) the sample size is too small, (b) the data may not be normally distributed, or (c) The data are from Likert scales, which are ordinal, so parametric statistics cannot be used. In this paper, I dissect these arguments, and show that many studies, dating back to the 1930s consistently show that parametric statistics are robust with respect to violations of these assumptions. Hence, challenges like those above are unfounded, and parametric methods can be utilized without concern for “getting the wrong answer”.</dcterms:abstract>
+        <dc:title>Likert scales, levels of measurement and the “laws” of statistics</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1382-4996,%201573-1677">
+        <prism:volume>15</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:title>Advances in Health Sciences Education</dc:title>
+        <dc:identifier>ISSN 1382-4996, 1573-1677</dc:identifier>
+        <dcterms:alternative>Adv in Health Sci Educ</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s10459-010-9222-y</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/20/Norman - 2010 - Likert scales, levels of measurement and the “laws.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/content/pdf/10.1007%2Fs10459-010-9222-y.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:29:06</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/21/10.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/article/10.1007%2Fs10459-010-9222-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 17:29:19</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://search.proquest.com/docview/614384112/abstract/AE076D7C9CD040A8PQ/1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-0167"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dawis</foaf:surname>
+                        <foaf:givenname>René V.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_27"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Counseling Psychology (major)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Experimentation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Rating Scales (major)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Test Construction (major)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://search.proquest.com/docview/614384112/abstract/AE076D7C9CD040A8PQ/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>© 1987, American Psychological Association</dc:rights>
+        <bib:pages>481-489</bib:pages>
+        <dc:date>Oct 1987</dc:date>
+        <dcterms:dateSubmitted>2018-05-03 17:31:08</dcterms:dateSubmitted>
+        <z:libraryCatalog>ProQuest</z:libraryCatalog>
+        <z:language>English</z:language>
+        <dc:title>Scale construction</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0022-0167">
+        <prism:volume>34</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Journal of Counseling Psychology</dc:title>
+        <dc:identifier>ISSN 0022-0167</dc:identifier>
+        <dc:identifier>DOI http://dx.doi.org.colorado.idm.oclc.org/10.1037/0022-0167.34.4.481</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/27/Dawis - 1987 - Scale construction.pdf"/>
+        <dc:title>Dawis - 1987 - Scale construction.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="http://methods.sagepub.com/book/summated-rating-scale-construction">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Newbury Park, California</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spector</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://methods.sagepub.com/book/summated-rating-scale-construction</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>May 3, 2018</dc:date>
+        <dc:description>DOI: 10.4135/9781412986038</dc:description>
+        <dc:title>Summated Rating Scale Construction</dc:title>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/30/Summated Rating Scale Construction - SAGE Research.pdf"/>
+        <dc:title>Summated Rating Scale Construction - SAGE Research.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.joe.org/joe/2012april/tt2.php">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1077-5315"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jr</foaf:surname>
+                        <foaf:givenname>Harry N. Boone</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boone</foaf:surname>
+                        <foaf:givenname>Deborah A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_33"/>
+        <link:link rdf:resource="#item_34"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Likert</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Likert scale</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Likert-type</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.joe.org/joe/2012april/tt2.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>April 2012</dc:date>
+        <dcterms:dateSubmitted>2018-05-03 18:53:41</dcterms:dateSubmitted>
+        <z:libraryCatalog>Journal of Extension</z:libraryCatalog>
+        <dcterms:abstract>This article provides information for Extension professionals on the correct analysis of Likert data. The analyses of Likert-type and Likert scale data require unique data analysis procedures, and as a result, misuses and/or mistakes often occur. This article discusses the differences between Likert-type and Likert scale data and provides recommendations for descriptive statistics to be used during the analysis. Once a researcher understands the difference between Likert-type and Likert scale data, the decision on appropriate statistical procedures will be apparent.</dcterms:abstract>
+        <dc:title>Analyzing Likert Data</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1077-5315">
+        <prism:volume>50</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Journal of Extension</dc:title>
+        <dc:identifier>ISSN 1077-5315</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Jr and Boone - 2012 - Analyzing Likert Data.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.joe.org/joe/2012april/pdf/JOE_v50_2tt2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 18:53:43</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/tt2.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.joe.org/joe/2012april/tt2.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-03 18:53:55</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="https://github.com/INFO-4602-5602/project-2-ncwit-team-13">
+        <z:itemType>computerProgram</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>INFO 4602/5602: Information Visualization</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/INFO-4602-5602/project-2-ncwit-team-13</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-03-17T06:24:48Z</dc:date>
+        <dc:description>original-date: 2018-03-01T22:33:35Z</dc:description>
+        <dcterms:dateSubmitted>2018-05-04 06:28:06</dcterms:dateSubmitted>
+        <z:libraryCatalog>GitHub</z:libraryCatalog>
+        <z:programmingLanguage>Jupyter Notebook</z:programmingLanguage>
+        <dc:title>project-2-ncwit-team-13 created by GitHub Classroom</dc:title>
+    </bib:Data>
+</rdf:RDF>
