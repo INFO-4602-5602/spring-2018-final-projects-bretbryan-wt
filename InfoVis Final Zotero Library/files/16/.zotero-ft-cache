@@ -1,0 +1,83 @@
+
+Published by the Foundation for Open Access Statistics
+Editors-in-chief: Bettina Grün, Torsten Hothorn, Edzer Pebesma, Achim Zeileis    ISSN 1548-7660; CODEN JSSOBK
+Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications | Heiberger | Journal of Statistical Software
+Journal of Statistical Software
+Article Tools
+Print this article
+Indexing metadata
+How to cite item
+Supplementary files
+Finding References
+Email this article (Login required)
+Email the author (Login required)
+Related Items
+	
+
+    Author's work
+    Book searches
+    Databases
+    Math theory
+    Related studies
+    Pay-per-view
+    Online forums
+    Teaching files
+    Government policy
+    Media reports
+    Web search
+
+Hide Show all
+About The Authors
+
+Richard Heiberger
+
+Naomi Robbins
+
+Open Journal Systems
+Journal Help
+User
+Username 	
+Password 	
+Remember me
+Feeds
+
+    RSS
+    Atom
+
+Notifications
+
+    View
+    Subscribe
+
+Journal Content
+Search
+Search Scope
+
+Browse
+
+    By Issue
+    By Author
+    By Title
+
+Font Size
+Make font size smaller Make font size default Make font size larger
+
+Home | Mission | Instructions for Authors | Style Guide | Editorial Board | Contact | Register
+Current Volume | Archives | Search
+Home > Vol 57 (2014) > Issue 5
+Authors: 	Richard Heiberger, Naomi Robbins
+Title: 	Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications
+Abstract: 	Rating scales, such as Likert scales, are very common in marketing research, customer satisfaction studies, psychometrics, opinion surveys, population studies, and numerous other fields. We recommend diverging stacked bar charts as the primary graphical display technique for Likert and related scales. We also show other applications where diverging stacked bar charts are useful. Many examples of plots of Likert scales are given. We discuss the perceptual and programming issues in constructing these graphs. We present two implementations for diverging stacked bar charts. Most examples in this paper were drawn with the likert function included in the HH package in R. We also have a dashboard in Tableau.
+	
+Page views: : 11787. Submitted: 2011-10-19. Published: 2014-04-07.
+Paper: 	Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications     Download PDF (Downloads: 19684)
+Supplements: 	
+HH_3.0-4.tar.gz: R source package 	Download (Downloads: 320; 473KB)
+v57i05.R: R example code from the paper 	Download (Downloads: 413; 2KB)
+DivergingStackedBarChart.twbx: Tableau worksheet 	Download (Downloads: 330; 80KB)
+DOI: 	10.18637/jss.v057.i05
+
+by
+This work is licensed under the licenses
+Paper: Creative Commons Attribution 3.0 Unported License
+Code: GNU General Public License (at least one of version 2 or version 3 ) or a GPL-compatible license .

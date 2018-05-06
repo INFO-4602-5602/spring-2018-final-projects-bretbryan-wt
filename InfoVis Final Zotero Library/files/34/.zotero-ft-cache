@@ -1,0 +1,174 @@
+
+The Journal of Extension - www.joe.org
+
+    JOE
+    HOME
+    JOURNAL
+    GUIDELINES
+    ABOUT JOE
+    CONTACT
+    NATIONAL JOB BANK
+
+The Journal of Extension - www.joe.org
+JOE
+
+    HOME
+    JOURNAL
+    ABOUT JOE
+    CONTACT
+    NATIONAL JOB BANK
+
+    Current Issue
+    Back Issues
+    Search
+    Subscribe
+
+Journal of Extension 	
+April 2012
+Volume 50
+Number 2
+Article # 2TOT2
+Tools of the Trade
+
+April 2012 // Volume 50 // Number 2 // Tools of the Trade // 2TOT2
+
+    Previous Article
+    Issue Contents
+    Previous Article
+    Printable PDF
+
+Addthis
+Analyzing Likert Data
+
+Abstract
+This article provides information for Extension professionals on the correct analysis of Likert data. The analyses of Likert-type and Likert scale data require unique data analysis procedures, and as a result, misuses and/or mistakes often occur. This article discusses the differences between Likert-type and Likert scale data and provides recommendations for descriptive statistics to be used during the analysis. Once a researcher understands the difference between Likert-type and Likert scale data, the decision on appropriate statistical procedures will be apparent.
+Keywords: data analysis , Likert , Likert scale , Likert-type
+
+Harry N. Boone, Jr.
+Associate Professor
+hnboone@wvu.edu
+
+Deborah A. Boone
+Associate Professor
+Debby.boone@mail.wvu.edu
+
+West Virginia University
+Morgantown, West Virginia
+Introduction
+
+Over the years, numerous methods have been used to measure character and personality traits (Likert, 1932). The difficulty of measuring attitudes, character, and personality traits lies in the procedure for transferring these qualities into a quantitative measure for data analysis purposes. The recent popularity of qualitative research techniques has relieved some of the burden associated with the dilemma; however, many social scientists still rely on quantitative measures of attitudes, character and personality traits.
+
+In response to the difficulty of measuring character and personality traits, Likert (1932) developed a procedure for measuring attitudinal scales. The original Likert scale used a series of questions with five response alternatives: strongly approve (1), approve (2), undecided (3), disapprove (4), and strongly disapprove (5). He combined the responses from the series of questions to create an attitudinal measurement scale. His data analysis was based on the composite score from the series of questions that represented the attitudinal scale. He did not analyze individual questions. While Likert used a five-point scale, other variations of his response alternatives are appropriate, including the deletion of the neutral response (Clason & Dormody, 1994).
+
+Likert response alternatives are widely used by Extension professionals. By the time of this article's preparation, at least 12 articles published in the 2011 Journal of Extension had used some form of a Likert response. In 2010, at least 21 articles published in the Journal of Extension used the technique. The articles published in 2011 included 4-point Likert alternatives (Behnke & Kelly, 2011; Robinson & Shepard, 2011), five-point Likert alternatives (Diker, Walters, Cunningham-Sabo, & Baker, 2011; Elizer, 2011; Hines, Hansen, & Falen, 2011; Kalambokidia, 2011; Kroth & Peutz, 2011; Singletary, Emm, & Hill, 2011), six-point Likert alternatives (Allen, Varner, & Sallee, 2011; Beaudreault & Miller, 2011; Wyman et al., 2011), and a seven-point Likert alternative (Walker, Vaught, Walker, & Nusz, 2011).
+
+While variations of the Likert response alternative have become common in Extension research, common usage has also created misuses or mistakes. One mistake commonly made is the improper analysis of individual questions on an attitudinal scale. Before we discuss the analysis of Likert data, let's review the basic concepts of the procedure.
+Likert-Type Versus Likert Scales
+
+Clason and Dormody (1994) described the difference between Likert-type items and Likert scales. They identified Likert-type items as single questions that use some aspect of the original Likert response alternatives. While multiple questions may be used in a research instrument, there is no attempt by the researcher to combine the responses from the items into a composite scale. Table 1 provides an example of five Likert-type questions.
+Table 1.
+Five Likert-Type Questions
+
+  	Strongly Disagree 	Disagree 	Neutral 	Agree 	Strongly Agree
+1. 4-H has been a good experience for me. 	SD 	D 	N 	A 	SA
+2. My parents have provided support for my 4-H projects. 	SD 	D 	N 	A 	SA
+3. My 4-H involvement will allow me to make a difference. 	SD 	D 	N 	A 	SA
+4. My 4-H advisor was always there for me. 	SD 	D 	N 	A 	SA
+5. Collegiate 4-H is important in the selection of a college. 	SD 	D 	N 	A 	SA
+
+A Likert scale, on the other hand, is composed of a series of four or more Likert-type items that are combined into a single composite score/variable during the data analysis process. Combined, the items are used to provide a quantitative measure of a character or personality trait. Typically the researcher is only interested in the composite score that represents the character/personality trait. Table 2 provides an example of five questions designed to be combined into a Likert scale measuring eating habits.
+Table 2.
+Five Likert Questions Designed to Create a "Healthy Eating" Likert Scale
+
+  	Strongly Disagree 	Disagree 	Neutral 	Agree 	Strongly Agree
+1. I eat healthy foods on a regular basis. 	SD 	D 	N 	A 	SA
+2. When I purchase food at the grocery store, I ignore "junk" food. 	SD 	D 	N 	A 	SA
+3. When preparing meals, I consider the fat content of food items. 	SD 	D 	N 	A 	SA
+4. When preparing meals, I consider the sugar content of food items. 	SD 	D 	N 	A 	SA
+5. A healthy diet is important to my family. 	SD 	D 	N 	A 	SA
+
+Steven's Scale of Measurement
+
+Both Likert-type and Likert scale data have unique data analysis procedures. To understand the options, one must start with the Steven's Scale of Measurement (Ary, Jacobs, & Sorenson, 2010). The Steven's scale consists of four categories: nominal, ordinal, interval, and ratio.
+
+In the nominal scale, observations are assigned to categories based on equivalence. Numbers associated with the categories serve only as labels. Examples of nominal scale data include gender, eye color, and race. Ordinal scale observations are ranked in some measure of magnitude. Numbers assigned to groups express a "greater than" relationship; however, how much greater is not implied. The numbers only indicate the order. Examples of ordinal scale measures include letter grades, rankings, and achievement (low, medium, high). Interval scale data also use numbers to indicate order and reflect a meaningful relative distance between points on the scale. Interval scales do not have an absolute zero. An example of an interval scale is the IQ standardized test. A ratio scale also uses numbers to indicate order and reflects a meaningful relative distance between points on the scale. A ratio scale does have an absolute zero. Examples of ratio measures include age and years of experience.
+Analyzing Likert Response Items
+
+To properly analyze Likert data, one must understand the measurement scale represented by each. Numbers assigned to Likert-type items express a "greater than" relationship; however, how much greater is not implied. Because of these conditions, Likert-type items fall into the ordinal measurement scale. Descriptive statistics recommended for ordinal measurement scale items include a mode or median for central tendency and frequencies for variability. Additional analysis procedures appropriate for ordinal scale items include the chi-square measure of association, Kendall Tau B, and Kendall Tau C.
+
+Likert scale data, on the other hand, are analyzed at the interval measurement scale. Likert scale items are created by calculating a composite score (sum or mean) from four or more type Likert-type items; therefore, the composite score for Likert scales should be analyzed at the interval measurement scale. Descriptive statistics recommended for interval scale items include the mean for central tendency and standard deviations for variability. Additional data analysis procedures appropriate for interval scale items would include the Pearson's r, t -test, ANOVA, and regression procedures. Table 3 provides examples of data analysis procedures for Likert-type and Likert scale data.
+Table 3.
+Suggested Data Analysis Procedures for Likert-Type and Likert Scale Data
+
+  	Likert-Type Data 	Likert Scale Data
+Central Tendency 	Median or mode 	Mean
+Variability 	Frequencies 	Standard deviation
+Associations 	Kendall tau B or C 	Pearson's r
+Other Statistics 	Chi-square 	ANOVA, t-test, regression
+
+Summary
+
+The data analysis decision for Likert items is usually made at the questionnaire development stage. Do you have a series of individual questions that have Likert response options for your participants to answer or do you have a series of Likert-type questions that when combined describe a personality trait or attitude? If your Likert questions are unique and stand-alone, then analyze them as Likert-type items. Modes, medians, and frequencies are the appropriate statistical tools to use. If you have designed a series of questions that when combined measure a particular trait, you have created a Likert scale. Use means and standard deviations to describe the scale. If you feel a need to report the individual items that make up the scale, only use Likert-type statistical procedures. Keep in mind that once the decision between Likert-type and Likert scale has been made, the decision on the appropriate statistics will fall into place.
+References
+
+Allen, K., Varner, K., & Sallee, J. (2011). Addressing nature deficit disorder through primitive camping experiences. Journal of Extension [On-line], 49(3) Article 3IAW2. Available at: http://www.joe.org/joe/2011june/iw2.php
+
+Ary, D., Jacobs, L. C., & Sorensen, C. (2010). Introduction to research in education (8 th ed.). California: Thomson Wadsworth.
+
+Beaudreault, A. R., & Miller, L. E. (2011). Need for methamphetamine programming in Extension education. Journal of Extension [On-line], 49(3) Article 3RIB6. Available at: http://www.joe.org/joe/2011june/rb6.php
+
+Behnke, A. O., & Kelly, C. (2011). Creating programs to help Latino youth thrive at school: The influence of Latino parent involvement programs. Journal of Extension [On-line], 49(1) Article 1FEA7. Available at: http://www.joe.org/joe/2011february/a7.php
+
+Clason, D. L., & Dormody, T. J. (1994) Analyzing data measured by individual Likert-type items. Journal of Agricultural Education, 35(4), 31- 35.
+
+Diker, A., Walters, L. M., Cunningham-Sabo, L., & Baker, S. S. (2011). Factors influencing adoption and implementation of cooking with kids, An experiential school-based nutrition education curriculum. Journal of Extension [On-line], 49(1) Article 1FEA6. Available at: http://www.joe.org/joe/2011february/a6.php
+
+Elizer, A. H. (2011). Are transformational directors required for satisfied agents? Journal of Extension [On-line], 49(2) Article 2RIB1. Available at: http://www.joe.org/joe/2011april/rb1.php
+
+Elizer, A. H. (2011). Are transformational directors required for satisfied agents? Journal of Extension [On-line], 49(2) Article 2RIB1. Available at: http://www.joe.org/joe/2011april/rb1.php
+
+Hines, S. L., Hansen, L., & Falen, C. (2011). So, you want to move out?!—An awareness program of the real costs of moving away from home. Journal of Extension [On-line], 49(1) Article 1IAW2. Available at http://www.joe.org/joe/2011february/iw2.php
+
+Kalambokidia, L. (2011). Spreading the word about Extension's public value. Journal of Extension [On-line], 49(2), Article 2FEA1. Available at: http://www.joe.org/joe/2011april/a1.php
+
+Kroth, M., & Peutz, J. (2011). Workplace issues in extension - A Delphi study of Extension educators. Journal of Extension [On-line], 49(1), Article 1RIB1. Available at: http://www.joe.org/joe/2011february/rb1.php
+
+Likert, R. (1932). A technique for the measurement of attitudes. Archives of Psychology , 22 (140), 1-55.
+
+Robinson, P., & Shepard, R. (2011). Outreach, applied research, and management needs for Wisconsin's great lakes freshwater estuaries: A Cooperative Extension needs assessment model. Journal of Extension [On-line], 49(1), Article 1FEA3. Available at: http://www.joe.org/joe/2011february/a3.php
+
+Singletary, L., Emm, S., & Hill, G. (2011). An assessment of Agriculture and Natural Resource Extension programs on American Indian reservations in Idaho, Nevada, Oregon, and Washington. Journal of Extension [On-line], 49(2), Article 2FEA2. Available at: http://www.joe.org/joe/2011april/a2.php
+
+Walker, E. L., Vaught, C. R., Walker, W. D., & Nusz, S. R. (2011). Attitudinal survey of producers involved in a meat goat artificial insemination clinic. Journal of Extension [On-line], 49(2), Article 2FEA6. Available at: http://www.joe.org/joe/2011april/a6.php
+
+Wyman, M., Escobedo, F., Varela, S., Asuaje, C., Mayer, H., Swisher, N., & Hermansen-Baez. (2011). Analyzing the natural resource Extension needs of Spanish-speakers: A perspective from Florida. Journal of Extension [On-line], 49(2), Article 2FEA3. Available at: http://www.joe.org/joe/2011april/a3.php
+«Return to Top»
+
+Copyright © by Extension Journal, Inc. ISSN 1077-5315. Articles appearing in the Journal become the property of the Journal. Single copies of articles may be reproduced in electronic or print form for use in educational or training activities. Inclusion of articles in other publications, electronic sources, or systematic large-scale distribution may be done only with prior electronic or written permission of the Journal Editorial Office , joe-ed@joe.org .
+
+If you have difficulties viewing or printing this page, please contact JOE Technical Support
+The Journal of Extension
+
+    HOME
+    JOURNAL
+    ABOUT JOE
+    CONTACT
+    NATIONAL JOB BANK
+
+The Journal of Extension ( JOE ) is the official refereed journal for Extension professionals. JOE expands and updates the research and knowledge base for Extension professionals and other adult educators to improve their effectiveness. In addition, JOE serves as a forum for emerging and contemporary issues affecting Extension education.
+
+Published bimonthly online by Extension Journal, Inc.
+
+© 1962-2018 Copyright by Extension Journal, Inc. ISSN 1077-5315.
+Copyright Policy
+
+JOE Guidance & Information
+
+    FAQs
+    Guidance for Authors
+    Guidance for JOE Reviewers
+    Guidance for JOE Institutional Delegates
+    Website Statistics
+    Affiliated Websites
+    Board Member Login
+

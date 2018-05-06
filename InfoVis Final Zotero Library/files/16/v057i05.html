@@ -1,0 +1,506 @@
+<html xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml" class="cufon-active cufon-ready" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style></head><body id="pkp-common-openJournalSystems"><table width="100%">
+ <tbody><tr>
+  <td style="background-color: #000000;">
+<div style="display:block; text-align:left; float:left;margin-left:1em"><font size="1" color="#FFFFFF">Published by the Foundation for Open Access Statistics</font></div>
+<div style="display:block; text-align:right;margin-right:1em"><font size="1" color="#FFFFFF">Editors-in-chief: Bettina Grün, Torsten Hothorn, Edzer Pebesma, Achim Zeileis    ISSN 1548-7660; CODEN JSSOBK</font></div>
+   </td>
+ </tr>
+</tbody></table>
+
+
+<!--?xml version="1.0" encoding="UTF-8"?-->
+
+
+
+	<title>Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications | Heiberger | Journal of Statistical Software</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications">
+	
+	<link rel="icon" href="https://www-jstatsoft-org.colorado.idm.oclc.org/public/journals/1/journalFavicon_en_US.gif" type="cannot open (No such file or directory)">
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+
+	<meta name="DC.Contributor.Sponsor" xml:lang="en" content="">
+	<meta name="DC.Creator.PersonalName" content="Richard Heiberger">
+	<meta name="DC.Creator.PersonalName" content="Naomi Robbins">
+	<meta name="DC.Date.created" scheme="ISO8601" content="2014-04-07">
+	<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2011-10-19">
+	<meta name="DC.Date.issued" scheme="ISO8601" content="2014-03-13">
+	<meta name="DC.Date.modified" scheme="ISO8601" content="2014-04-07">
+	<meta name="DC.Description" xml:lang="en" content="Rating scales, such as Likert scales, are very common in marketing research, customer satisfaction studies, psychometrics, opinion surveys, population studies, and numerous other fields. We recommend diverging stacked bar charts as the primary graphical display technique for Likert and related scales. We also show other applications where diverging stacked bar charts are useful. Many examples of plots of Likert scales are given. We discuss the perceptual and programming issues in constructing these graphs. We present two implementations for diverging stacked bar charts. Most examples in this paper were drawn with the likert function included in the HH package in R. We also have a dashboard in Tableau.">
+	<meta name="DC.Format" scheme="IMT" content="PB">
+	<meta name="DC.Identifier" content="v057i05">
+	<meta name="DC.Identifier.pageNumber" content="1 - 32">
+							<meta name="DC.Identifier.DOI" content="10.18637/jss.v057.i05">
+		<meta name="DC.Identifier.URI" content="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/view/v057i05">
+	<meta name="DC.Language" scheme="ISO639-1" content="en">
+	<meta name="DC.Rights" content="Copyright (c) 2011 Richard Heiberger, Naomi Robbins">
+	<meta name="DC.Rights" content="">
+	<meta name="DC.Source" content="Journal of Statistical Software">
+	<meta name="DC.Source.ISSN" content="1548-7660">
+	<meta name="DC.Source.Issue" content="1">	<meta name="DC.Source.URI" content="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss">
+	<meta name="DC.Source.Volume" content="57">					<meta name="DC.Title" content="Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications">
+		<meta name="DC.Type" content="Text.Serial.Journal">
+	<meta name="DC.Type.articleType" content="Articles">
+		<meta name="gs_meta_revision" content="1.1">
+	<meta name="citation_journal_title" content="Journal of Statistical Software">
+	<meta name="citation_issn" content="1548-7660">
+        <meta name="citation_author" content="Richard Heiberger">
+        <meta name="citation_author" content="Naomi Robbins">
+<meta name="citation_title" content="Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications">
+
+	<meta name="citation_date" content="2014/04/07">
+
+	<meta name="citation_volume" content="57">
+	<meta name="citation_issue" content="1">
+
+			<meta name="citation_firstpage" content="1">
+				<meta name="citation_lastpage" content="32">
+								<meta name="citation_doi" content="10.18637/jss.v057.i05">
+		<meta name="citation_abstract_html_url" content="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/view/v057i05">
+	<meta name="citation_language" content="en">
+										<meta name="citation_fulltext_html_url" content="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/view/v057i05/v57i05.pdf">
+				
+
+	<link rel="stylesheet" href="pkp" type="text/css">
+	<link rel="stylesheet" href="common" type="text/css">
+	<link rel="stylesheet" href="common" type="text/css">
+	<link rel="stylesheet" href="compiled" type="text/css">
+	<link rel="stylesheet" href="articleView" type="text/css">
+			<link rel="stylesheet" href="rtEmbedded" type="text/css">
+	
+	
+	
+	<link rel="stylesheet" href="sidebar" type="text/css">		<link rel="stylesheet" href="rightSidebar" type="text/css">	
+			<link rel="stylesheet" href="sitestyle" type="text/css">
+			<link rel="stylesheet" href="journalStyleSheet" type="text/css">
+			<link rel="stylesheet" href="pln" type="text/css">
+			<link rel="stylesheet" href="languageToggle" type="text/css">
+	
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="jsapi"></script>
+	<script type="text/javascript">
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='https://www-jstatsoft-org.colorado.idm.oclc.org/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='https://www-jstatsoft-org.colorado.idm.oclc.org/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.4");
+			google.load("jqueryui", "1.8.6");
+		}
+	</script><script src="jquery_003.js" type="text/javascript"></script><script src="jquery-ui.js" type="text/javascript"></script>
+	
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="jquery_004.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript" src="fontController.js"></script>
+<script type="text/javascript" src="general.js"></script>
+<script type="text/javascript" src="jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="Helper.js"></script>
+<script type="text/javascript" src="ObjectProxy.js"></script>
+<script type="text/javascript" src="Handler.js"></script>
+<script type="text/javascript" src="LinkActionRequest.js"></script>
+<script type="text/javascript" src="Feature.js"></script>
+
+<script type="text/javascript" src="SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="UrlInDivHandler.js"></script>
+<script type="text/javascript" src="AutocompleteHandler.js"></script>
+<script type="text/javascript" src="ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="FormHandler.js"></script>
+<script type="text/javascript" src="AjaxFormHandler.js"></script>
+<script type="text/javascript" src="ClientFormHandler.js"></script>
+<script type="text/javascript" src="GridHandler.js"></script>
+<script type="text/javascript" src="LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="SearchFormHandler.js"></script>
+<script type="text/javascript" src="ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="jquery_002.js"></script>
+
+<script type="text/javascript" src="cufon-yui.js"></script>
+<script type="text/javascript" src="TeXGyreChorus_italic_500.js"></script>
+<script type="text/javascript">
+   Cufon.replace("h1");
+</script>	
+	
+	<link rel="alternate" type="application/atom+xml" title="Journal of Statistical Software (atom+xml)" href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/gateway/plugin/WebFeedGatewayPlugin/atom">
+	<link rel="alternate" type="application/rdf+xml" title="Journal of Statistical Software (rdf+xml)" href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/gateway/plugin/WebFeedGatewayPlugin/rss">
+	<link rel="alternate" type="application/rss+xml" title="Journal of Statistical Software (rss+xml)" href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<script type="text/javascript" src="relatedItems.js"></script>
+	<script type="text/javascript" src="inlinePdf.js"></script>
+	<script type="text/javascript" src="pdfobject.js"></script>
+
+
+
+
+<div id="container"><div id="fade" class="black_overlay"></div>
+<div id="header">
+<div id="headerTitle">
+<h1><img src="pageHeaderTitleImage_en_US" alt="Journal of Statistical Software" width="731" height="50"></h1>
+</div>
+</div>
+
+
+
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				
+
+<div class="block" id="sidebarRTArticleTools">
+
+	<span class="blockTitle">Article Tools</span>
+				<div class="articleToolItem">
+			<img src="printArticle" class="articleToolIcon" alt=""> <a href="javascript:openRTWindow('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/printerFriendly/v057i05/0');">Print this article</a>
+		</div>
+				<div class="articleToolItem">
+			<img src="metadata" class="articleToolIcon" alt=""> <a href="javascript:openRTWindow('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/metadata/v057i05/0');">Indexing metadata</a><br>
+		</div>
+				<div class="articleToolItem">
+			<img src="citeArticle" class="articleToolIcon" alt=""> <a href="javascript:openRTWindow('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/captureCite/v057i05/0');">How to cite item</a><br>
+		</div>
+				<div class="articleToolItem">
+			<img src="suppFiles" class="articleToolIcon" alt=""> <a href="javascript:openRTWindow('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/suppFiles/v057i05/0');">Supplementary files</a><br>
+		</div>
+				<div class="articleToolItem">
+			<img src="findingReferences" class="articleToolIcon" alt=""> <a href="javascript:openRTWindow('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/findingReferences/2132/0');">Finding References</a>
+		</div>
+					<div class="articleToolItem">
+			<img src="emailArticle" class="articleToolIcon" alt="">
+			Email this article <span style="font-size: 0.8em">(Login required)</span>		</div>
+				<div class="articleToolItem">
+			<img src="emailArticle" class="articleToolIcon" alt="">
+			Email the author <span style="font-size: 0.8em">(Login required)</span>		</div>
+		</div>
+
+
+<script type="text/javascript">
+	initRelatedItems();
+</script>
+
+
+<div class="block" id="sidebarRTRelatedItems">
+	<span class="blockTitle">Related Items</span>
+		<table width="100%">
+			<tbody><tr>
+				<td style="width:26px;" valign="top">
+					<img src="lookupTerms" class="articleToolIcon" alt="">
+				</td>
+				<td valign="top">
+					<div id="relatedItems" style="display: none;">
+						<ul class="plain">
+																					<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/194');">Author's work</a></li>
+																																									<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/196');">Book searches</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/197');">Databases</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/198');">Math theory</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/199');">Related studies</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/200');">Pay-per-view</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/201');">Online forums</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/202');">Teaching files</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/203');">Government policy</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/204');">Media reports</a></li>
+																												<li><a href="javascript:openRTWindowWithToolbar('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/rt/context/v057i05/0/205');">Web search</a></li>
+																			</ul>
+					</div>
+					<div id="toggleRelatedItems">
+						<a id="hideRelatedItems" style="display:none;" href="javascript:void(0)">
+							<img src="magnifier_zoom_out" alt=""> 
+							Hide
+						</a>
+						<a id="showRelatedItems" href="javascript:void(0)">
+							<img src="magnifier_zoom_in" alt="">
+							Show all
+						</a>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+</div>
+
+
+<div class="block" id="sidebarRTAuthorBios">
+	<span class="blockTitle">
+					About The Authors
+			</span>
+		<div class="authorBio">
+	<p>
+		<em>Richard Heiberger</em>
+											</p>
+
+	<p></p>
+	</div>
+	<div class="separator"></div>
+		<div class="authorBio">
+	<p>
+		<em>Naomi Robbins</em>
+											</p>
+
+	<p></p>
+	</div>
+	
+	</div><div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca.colorado.idm.oclc.org/ojs/" id="developedBy">Open Journal Systems</a>
+</div><div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/help')">Journal Help</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/login/signIn">
+					<table>
+						<tbody><tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input id="sidebar-username" name="username" size="12" maxlength="32" class="textField" type="text"></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input id="sidebar-password" name="password" value="" size="12" class="textField" type="password"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input id="remember" name="remember" value="1" type="checkbox"> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input value="Login" class="button" type="submit"></td>
+						</tr>
+					</tbody></table>
+				</form>
+						</div><div class="block custom" id="customblock-FeedsBlock">
+	<div><span class="blockTitle">Feeds</span>
+<ul>
+<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/rss">RSS</a></li>
+<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/atom">Atom</a></li>
+</ul>
+</div>
+</div>	 <div class="block" id="notification">
+	<span class="blockTitle">Notifications</span>
+	<ul>
+					<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/notification">View</a></li>
+			<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/notification/subscribeMailList">Subscribe</a></li>
+			</ul>
+</div>
+
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	<form id="simpleSearchForm" action="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/search/search">
+		<table id="simpleSearchInput">
+			<tbody><tr>
+				<td>
+													<label for="simpleQuery">Search <br>
+					<input id="simpleQuery" name="simpleQuery" size="15" maxlength="255" class="textField" type="text"></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br>
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query" selected="selected">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input value="Search" class="button" type="submit"></td>
+			</tr>
+		</tbody></table>
+	</form>
+
+	<br>
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/issue/archive">By Issue</a></li>
+		<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/search/authors">By Author</a></li>
+		<li><a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/search/titles">By Title</a></li>
+		
+	</ul>
+	</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Font Size</span>
+	<div id="sizer"><a href="javascript:void(0);" class="pkp_controllers_fontController_smallFont" title="Make font size smaller">Make font size smaller</a> <a href="javascript:void(0);" class="pkp_controllers_fontController_defaultFont" title="Make font size default">Make font size default</a> <a href="javascript:void(0);" class="pkp_controllers_fontController_largeFont" title="Make font size larger">Make font size larger</a> </div>
+</div>
+<br>
+			</div>
+			</div>
+
+<div id="main">
+
+<div id="navbar">
+<div style="background-color:#FFFFFF; border-top: 1px black dotted; border-bottom: 1px black dotted;">
+ <table width="100%">
+ <tbody><tr>
+  <td style="background-color: #FFFFFF;">
+<div style="display:block; text-align:left; float:left; margin-left:1em"><font size="+1" color="#000000">
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/index">Home</a> | 
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/pages/view/mission">Mission</a> | 
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/pages/view/authors">Instructions for Authors</a> | 
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/pages/view/style">Style Guide</a> | 
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/about/editorialTeam">Editorial Board</a> | 
+<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/about/contact">Contact</a> | 
+									<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/user/register">Register</a>
+					</font></div>
+<div style="display:block; text-align:right;margin-right:1em"><font size="+1" color="#000000">
+					<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/issue/current">Current Volume</a> | 
+			<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/issue/archive">Archives</a> | 
+							<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/search">Search</a>
+		</font></div>
+   </td>
+ </tr>
+</tbody></table>
+</div>
+</div>
+
+<div id="breadcrumb">
+	<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/index" target="_parent">Home</a> &gt;
+   <a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/issue/view/v057" target="_parent">Vol 57 (2014)</a> &gt;   <a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/view/v057i05/0" class="current" target="_parent">Issue 5</a>
+
+</div>
+
+<div id="content">
+
+	<div id="topBar">
+					</div>
+	<table class="data" width="100%">
+   <tbody><tr valign="top">
+      <td class="label" width="15%">Authors:</td>
+      <td class="value" width="85%">Richard Heiberger, Naomi Robbins</td>
+   </tr>
+   <tr valign="top">
+      <td class="label" width="15%">Title:</td>
+      <td class="value" width="85%"><b>Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications</b></td>
+   </tr>
+      <tr valign="top">
+      <td class="label" width="15%">Abstract:</td>
+      <td class="value" width="85%">Rating scales, such as Likert 
+scales, are very common in marketing research, customer satisfaction 
+studies, psychometrics, opinion surveys, population studies, and 
+numerous other fields. We recommend diverging stacked bar charts as the 
+primary graphical display technique for Likert and related scales. We 
+also show other applications where diverging stacked bar charts are 
+useful. Many examples of plots of Likert scales are given. We discuss 
+the perceptual and programming issues in constructing these graphs. We 
+present two implementations for diverging stacked bar charts. Most 
+examples in this paper were drawn with the likert function included in 
+the HH package in R. We also have a dashboard in Tableau. 
+      </td>
+   </tr>
+      <tr>
+      <td></td>
+      <td>
+         <br>
+                  <b>Page views:</b>: 11787.
+                              <b>Submitted:</b> 2011-10-19.
+                              <b>Published:</b> 2014-04-07.
+                  <hr>
+      </td>
+   </tr>
+   
+   <tr valign="top">
+   	<td class="label" width="15%">Paper:</td>
+   	<td class="value" width="85%">
+         Design of Diverging Stacked Bar Charts for Likert Scales and Other Applications
+         &nbsp;&nbsp;&nbsp;
+            			<a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/view/v057i05/v57i05.pdf" class="file" target="_parent">Download PDF</a>
+   			   		         (Downloads:                                                    19684)
+         <hr>
+      </td>
+   </tr>
+
+ 
+   <tr valign="top">
+   	<td class="label" width="15%">Supplements:</td>
+   	<td class="value" width="85%">
+         <table class="supplementfiles">
+                     <tbody><tr>
+   	         <td>HH_3.0-4.tar.gz: R source package</td>
+   	         <td>
+                  <a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/downloadSuppFile/v057i05/HH_3.0-4.tar.gz" class="action">
+                                             Download
+                                       </a>
+                                       (Downloads: 320; 473KB)
+                  
+               </td>
+            </tr>
+                     <tr>
+   	         <td>v57i05.R: R example code from the paper</td>
+   	         <td>
+                  <a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/downloadSuppFile/v057i05/v57i05.R" class="action">
+                                             Download
+                                       </a>
+                                       (Downloads: 413; 2KB)
+                  
+               </td>
+            </tr>
+                     <tr>
+   	         <td>DivergingStackedBarChart.twbx: Tableau worksheet</td>
+   	         <td>
+                  <a href="https://www-jstatsoft-org.colorado.idm.oclc.org/index.php/jss/article/downloadSuppFile/v057i05/DivergingStackedBarChart.twbx" class="action">
+                                             Download
+                                       </a>
+                                       (Downloads: 330; 80KB)
+                  
+               </td>
+            </tr>
+                  </tbody></table>
+   	
+      <hr>
+      </td></tr>
+
+
+                     <tr valign="top">
+      	<td class="label" width="15%">
+            DOI:
+         </td>
+      	<td class="value" width="85%">
+      		<a id="pub-id::doi" href="http://dx.doi.org.colorado.idm.oclc.org/10.18637/jss.v057.i05">10.18637/jss.v057.i05</a>
+         <hr>
+         </td>
+      </tr>
+   </tbody></table>
+
+																			
+
+
+
+
+
+
+
+
+<table class="data" width="100%">
+<tbody><tr valign="top">
+	<td class="value" width="0%" align="center">
+<br>
+<img src="cc" alt="by">
+<br>
+<font size="-6">This work is licensed under the licenses</font>
+<font size="-6"><br></font>
+<font size="-6">Paper: <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a></font>
+<font size="-6"><br></font>
+<font size="-6">Code: GNU General Public License (at least one of <a href="http://www.gnu.org/licenses/gpl-2.0.html">version 2</a> or <a href="http://www.gnu.org/licenses/gpl-3.0.html">version 3</a>) or a <a href="https://gnu.org/licenses/license-list.html#GPLCompatibleLicenses">GPL-compatible license</a>.</font> 
+</td>
+</tr>
+</tbody></table>
+
+</div></div></div></div></body></html>

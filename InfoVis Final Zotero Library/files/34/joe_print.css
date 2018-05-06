@@ -1,0 +1,194 @@
+@charset "utf-8";
+body {
+  font: 100% Tahoma, Verdana, Arial, sans-serif;
+  margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+  /*text-align: center;  this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+  color: #000000;
+  background-color: #fff;
+  line-height: 2em;
+
+}
+
+img{
+  border:0;
+}
+
+
+
+/*link formatting for links within main content text*/
+
+a:link{
+  color: #001c80;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #001c80;
+  text-decoration: underline;
+}
+
+a:hover{
+  background-color: #A6BAFF;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.DIV-mainContent-wrapper {
+  width: 100%;
+}
+
+#main-content {
+  margin:0;
+  padding:0;
+}
+
+
+.DIV-searchbox,
+#upperTabs,
+#subTabs,
+p.DIV-number,
+#mainContent table,
+.DIV-recommend,
+div#footer-container
+{
+  display: none;
+}
+
+#main-container {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+
+}
+
+.DIV-article table {
+  display: block !important;
+}
+
+/* Article Styles  */
+#article-printhead {
+  margin-bottom:0;
+}
+
+#article-printhead td, #article-printhead td h2 {
+  padding:0;
+  margin:0;
+  font-size: 1em;
+}
+
+#article_content ul li, #article_content ol li {
+  margin-bottom: 20px;
+}
+
+#article_content table {
+  margin-bottom: 20px;
+}
+
+#article_content ul li ul, #article_content ol li ul, #article_content ul li ol, #article_content ol li ol {
+  padding-top: 10px;
+}
+
+tr.tableheadings td, td.tableheadings {
+  font-weight:bold;
+  vertical-align: bottom;
+}
+
+td.section_head, tr.section_head td {
+  font-weight:bold;
+  background-color: #ccc;
+}
+
+td.indenttd {
+  padding-left:20px;
+}
+
+.new_css_template table.joe_article_table {
+  width: 80%;
+  border-spacing:0px;
+}
+
+.new_css_template table.joe_article_table td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+body,p,ol,ul,td,caption
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+h1
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16pt }
+h2
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt }
+h3
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
+h4
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
+
+.abstract
+{ font-size: 90%; font-style: italic; margin-left: 25px; margin-right: 25px; }
+-->
+div.DIV-title h1 {
+  text-align:center;
+}
+
+div.DIV-abstract {
+  border: 1px solid black;
+  background-color: #dce1f3;
+  font-size: .8em;
+  padding:10px;
+  padding-top:0px;
+}
+
+div.DIV-keywords {
+  display:none;
+}
+
+div.DIV-author p {
+  display: inline-block;
+  margin-left:0;
+  margin-right:15px;
+  width: 150px;
+  vertical-align: top;
+  font-size: 1em;
+  line-height: 1.2em;
+  word-wrap: break-word;
+}
+
+div.ans {
+  display:block !important;
+}
+
+.css_template #article_content ul li, #article_content ol li {
+  margin-bottom: 20px;
+}
+
+.css_template #article_content table {
+  margin-bottom: 20px;
+}
+
+.css_template #article_content ul li ul, #article_content ol li ul, #article_content ul li ol, #article_content ol li ol {
+  padding-top: 20px;
+}
+
+tr.tableheadings td, td.tableheadings {
+  font-weight:bold;
+  vertical-align: bottom;
+}
+
+td.section_head, tr.section_head td {
+  font-weight:bold;
+  background-color: #ccc;
+}
+
+td.indenttd {
+  padding-left:20px;
+}
+
+.screen_only {
+  display:none;
+}
+
+.print_only {
+  display:block;
+}
+
+
